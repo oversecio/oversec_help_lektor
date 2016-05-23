@@ -1,0 +1,118 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="{{ '/static/style.css'|url }}">
+  <title>{% block title %}Welcome{% endblock %} — Oversec Help</title>
+{% if this.redirect %}
+     <script>
+
+    function redirectpage(dest) {
+      
+      if (window.location.pathname!=dest) {
+        if (window.location.replace)
+          window.location.replace(dest)
+        else
+          window.location=dest
+      }
+    }
+
+
+      function resolveAlias(lang,xalias) {
+        
+        {% for alias, path in bag('aliases').iteritems() %}
+          if ('{{alias}}'==xalias) {
+            redirectpage(lang+'{{path}}');
+            return;
+          }
+        {% endfor %}
+        redirectpage(lang+'/index.html');
+      }  
+
+     function resolve(lang) {
+
+          var hash =window.location.hash.substring(1);
+          if (hash.startsWith('alias_')) {
+            resolveAlias(lang,hash.substring(6));
+         }
+         else {
+            redirectpage(lang+'/index.html');
+         }
+     }
+
+    /*
+    Browser Language Redirect script- By JavaScript Kit
+    For this and over 400+ free scripts, visit http://www.javascriptkit.com
+    This notice must stay intact
+    */
+    //Enter ISO 639-2 letter Language codes to detect (see: http://www.w3.org/WAI/ER/IG/ert/iso639.htm):
+    var langcodes=new Array("en", "de", "default")
+    //Enter corresponding redirect URLs (last one is for default URL):
+    var langredirects=new Array("", "de", "")
+    var languageinfo=navigator.language? navigator.language : navigator.userLanguage
+    var gotodefault=1
+    
+
+    for (i=0;i<langcodes.length-1;i++){
+      if (languageinfo.substr(0,2)==langcodes[i]) {
+        resolve(langredirects[i])
+        gotodefault=0
+        break
+      }
+    }
+
+    if (gotodefault)
+      resolve(langredirects[langcodes.length-1])
+    </script>
+ {% endif %}
+
+</head>
+<body>
+
+
+<!-- note, menu stuff taken from here: http://codepen.io/chriscoyier/pen/umEgv -->
+<nav class="main-nav" id="main-nav">
+
+  {% for page in [site.root] if page.record_label recursive %}
+  <div><a  href="{{ page|url }}">{{ page.record_label }}</a>
+    {% if page.children %}
+      <div class="menuindent">{{ loop(page.children.order_by('_id')) }}</div>
+    {% endif %}
+  </div> 
+  {% endfor %}
+
+</nav>
+
+
+<div class="page-wrap">
+
+<header class="main-header">
+
+    <a href="#main-nav" class="open-menu toggle">
+      ☰
+    </a>
+    <a href="#" class="close-menu toggle">
+      ☰
+    </a>
+
+<span class="headline">
+Oversec Help
+</span>
+
+<div style="float: right; display: inline-block; margin-right:30px">
+      <a href="{{ '.'|url(alt='de') }}"><img src="{{ '/static/flags/DE.png'|url }}"></a>
+      <a href="{{ '.'|url(alt='') }}"><img src="{{ '/static/flags/GB.png'|url }}"></a>
+</div>
+
+  </header>
+
+ <div class="content">  <div class="page">
+    {% block body %}{% endblock %}
+  </div>
+
+
+
+  <footer>
+    &copy; Copyright 2016 by oversec.io.
+  </footer>
+</div> 
+</body>

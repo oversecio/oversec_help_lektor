@@ -1,0 +1,21 @@
+[project]
+name = Oversec Help
+
+[alternatives.en]
+name = English
+primary = yes
+locale = en_US
+
+[alternatives.de]
+name = Deutsch
+url_prefix = /de/
+locale = de
+
+[alternatives.fr]
+name = Francais
+url_prefix = /fr/
+locale = fr
+
+
+[packages]
+lektor-markdown-highlighter = 0.1
