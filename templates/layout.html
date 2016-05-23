@@ -1,11 +1,20 @@
 <!doctype html>
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="{{ '/static/style.css'|url }}">
-  <title>{% block title %}Welcome{% endblock %} — Oversec Help</title>
-{% if this.redirect %}
-     <script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
+ 
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3-theme-blue.css">
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="{{ '/static/style.css'|url }}">
+
+
+  <title>{% block title %}Welcome{% endblock %} — Oversec Help</title>
+
+     <script>
+{% if this.redirect %}
     function redirectpage(dest) {
       
       if (window.location.pathname!=dest) {
@@ -62,56 +71,71 @@
 
     if (gotodefault)
       resolve(langredirects[langcodes.length-1])
-    </script>
+
  {% endif %}
+
+
+function w3_open() {
+    var x = document.getElementsByClassName("w3-sidenav")[0];
+    x.style.display = "block";
+}
+function w3_close() {
+    var x = document.getElementsByClassName("w3-sidenav")[0];
+    x.style.display = "none";
+}
+
+
+    </script>
+
 
 </head>
 <body>
 
+<nav  class="w3-sidenav w3-card-2 w3-top main-nav" style="width:50%;display:none;z-index:2">
+  <div class="w3-container w3-theme-d2 oversec-header">
+   <h2>
+   <i class="w3-closenav w3-rleft w3-xlarge fa fa-close" style="padding-top:5px" onclick="w3_close()"></i>
 
-<!-- note, menu stuff taken from here: http://codepen.io/chriscoyier/pen/umEgv -->
-<nav class="main-nav" id="main-nav">
+    </h2>
+  </div>
+  
 
+<div >
   {% for page in [site.root] if page.record_label recursive %}
-  <div><a  href="{{ page|url }}">{{ page.record_label }}</a>
+  <a class="menuentry" href="{{ page|url }}"><h4>{{ page.record_label }}</h4></a>
     {% if page.children %}
       <div class="menuindent">{{ loop(page.children.order_by('_id')) }}</div>
     {% endif %}
-  </div> 
+  
   {% endfor %}
+
+</div>
 
 </nav>
 
+<header class="w3-container w3-card-4 w3-theme w3-top oversec-header">
 
-<div class="page-wrap">
+  <h3>
+  <i class="w3-opennav fa fa-bars" onclick="w3_open()"></i>
+  Oversec Help
+  </h3>
+</header>
 
-<header class="main-header">
-
-    <a href="#main-nav" class="open-menu toggle">
-      ☰
-    </a>
-    <a href="#" class="close-menu toggle">
-      ☰
-    </a>
-
-<span class="headline">
-Oversec Help
-</span>
-
-<div style="float: right; display: inline-block; margin-right:30px">
-      <a href="{{ '.'|url(alt='de') }}"><img src="{{ '/static/flags/DE.png'|url }}"></a>
-      <a href="{{ '.'|url(alt='') }}"><img src="{{ '/static/flags/GB.png'|url }}"></a>
-</div>
-
-  </header>
-
- <div class="content">  <div class="page">
+<div class="w3-container" style="margin-top:75px">
     {% block body %}{% endblock %}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at orci euismod, placerat eros eget, bibendum enim. Integer nunc sem, tempus non elit nec, fermentum vehicula dolor. Cras malesuada sed nunc et euismod. Morbi lectus dolor, maximus et mi vel, ullamcorper eleifend sapien. Nulla purus nunc, laoreet id eros vitae, ultrices finibus ex. Morbi aliquam purus ex, eget mollis sapien convallis sit amet. Nullam ante nisi, semper ut est nec, maximus fringilla mauris. Ut mollis purus id nunc posuere, id tincidunt quam efficitur. Vestibulum auctor felis erat, eu interdum est iaculis eget. Maecenas semper varius bibendum. Phasellus ac nunc quis dui malesuada ornare. Phasellus ut ante sagittis, interdum ipsum vel, imperdiet tellus.
+
+Sed erat justo, dignissim mollis leo vitae, dapibus iaculis justo. Nulla venenatis erat at erat luctus, ac tincidunt ante vestibulum. Nunc risus magna, posuere a tempor et, dapibus eget dui. Etiam non volutpat est. Morbi sit amet ipsum lectus. Integer justo lorem, finibus quis metus vel, blandit suscipit nisl. Aliquam rhoncus sed elit a rhoncus.
+
+Vestibulum eget euismod dui, pharetra lobortis arcu. Phasellus tempus neque libero, sit amet vehicula tortor maximus eu. Fusce fringilla lectus et lectus mattis, quis fermentum neque tincidunt. Praesent posuere sollicitudin mauris et cursus. Nam eu arcu id eros luctus tincidunt. Maecenas aliquam, leo a porttitor finibus, felis augue imperdiet dolor, quis porta nulla lorem in lacus. Nam non efficitur ligula. In eu diam sem. Etiam nec vestibulum erat. Duis bibendum lacus libero, sed tempor ligula hendrerit ut. Curabitur elementum lacus orci, nec euismod sem lobortis sed.
+
+
   </div>
 
 
 
-  <footer>
+<footer class="w3-container w3-theme">
     &copy; Copyright 2016 by oversec.io.
   </footer>
 </div> 
