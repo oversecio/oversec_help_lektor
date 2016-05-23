@@ -92,17 +92,17 @@ function w3_close() {
 <body>
 
 <nav  class="w3-sidenav w3-card-2 w3-top main-nav" style="width:50%;display:none;z-index:2">
-  <div class="w3-container w3-theme-d2 oversec-header">
-   <h2>
+  <div class="w3-container w3-theme-d2 oversec-header"  onclick="w3_close()">
+   <h4>
    <i class="w3-closenav w3-rleft w3-xlarge fa fa-close" style="padding-top:5px" onclick="w3_close()"></i>
 
-    </h2>
+    </h4>
   </div>
   
 
 <div >
   {% for page in [site.root] if page.record_label recursive %}
-  <a class="menuentry" href="{{ page|url }}"><h4>{{ page.record_label }}</h4></a>
+  <a class="menuentry" href="{{ page|url }}"><h5>{{ page.record_label }}</h5></a>
     {% if page.children %}
       <div class="menuindent">{{ loop(page.children.order_by('_id')) }}</div>
     {% endif %}
@@ -115,10 +115,14 @@ function w3_close() {
 
 <header class="w3-container w3-card-4 w3-theme w3-top oversec-header">
 
-  <h3>
+  <span class="headline">
   <i class="w3-opennav fa fa-bars" onclick="w3_open()"></i>
   Oversec Help
-  </h3>
+  </span>
+  <div style="float: right; display: inline-block; margin-right:30px">
+      <a href="{{ '.'|url(alt='de') }}"><img src="{{ '/static/flags/DE.png'|url }}"></a>
+      <a href="{{ '.'|url(alt='') }}"><img src="{{ '/static/flags/GB.png'|url }}"></a>
+  </div>
 </header>
 
 <div class="w3-container" style="margin-top:75px">
@@ -134,9 +138,12 @@ Vestibulum eget euismod dui, pharetra lobortis arcu. Phasellus tempus neque libe
   </div>
 
 
-
-<footer class="w3-container w3-theme">
+<br/>
+<br/>
+<footer class="w3-container">
+<!--
     &copy; Copyright 2016 by oversec.io.
+-->
   </footer>
 </div> 
 </body>

@@ -37,6 +37,11 @@ div.page {
    
 }
 
+.headline {
+      color: white;
+  font-size: 24px;
+}
+
 .oversec-header {
   background: linear-gradient(#ffa726, #ef6c00);
 
@@ -63,7 +68,7 @@ margin-left:15px;
   border-top: 1px solid #484848;
   border-bottom: 1px solid #2E2E2E;
   color: #ffa726;
-  padding: 15px;
+  padding: 5px;
 }
 .menuentry:hover, .menuentry:focus {
   background: linear-gradient(#484848, #383838);

@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; padding: 0;
+}
+
+a {
+    color: #2a99b6;
+}
+
+a:hover {
+    color: #33bbdf;
+}
+
+header, div.page {
+    
+    margin: 0 auto;
+    padding: 10px 15px;
+}
+
+footer {
+    
+    margin: 0 auto;
+    background: #FFD89E;
+    padding: 10px 15px;
+}
+
+header h1 {
+    color: #FFFFFF;
+    margin: 0;
+    font-weight: normal;
+    font-size: 42px;
+}
+
+
+
+div.page {
+   
+}
+
+
+.menuindent {
+
+margin-left:15px;
+
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  min-height: 100%;
+}
+
+.main-nav a {
+  text-decoration: none;
+}
+
+.headline {
+      color: white;
+  font-size: 48px;
+}
+
+.main-header {
+  background: linear-gradient(#ffa726, #ef6c00);
+  padding: 5px;
+  text-align: center;
+  color: white;
+  text-shadow: #222 0px -1px 1px;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  transition: all 0.3s ease;
+}
+.main-header a.toggle {
+    text-decoration: none;
+  position: absolute;
+  left: 15px;
+  top: 4px;
+  color: white;
+  font-size: 32px;
+}
+
+.page-wrap {
+  float: right;
+  width: 100%;
+  transition: width 0.3s ease;
+}
+
+.main-nav {
+  position: fixed;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #3B3B3B;
+  overflow-y: auto;
+  transition: width 0.3s ease;
+}
+.main-nav a {
+  display: block;
+  background: linear-gradient(#3e3e3e, #383838);
+  border-top: 1px solid #484848;
+  border-bottom: 1px solid #2E2E2E;
+  color: white;
+  padding: 15px;
+}
+.main-nav a:hover, .main-nav a:focus {
+  background: linear-gradient(#484848, #383838);
+}
+.main-nav:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 34px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+}
+
+.content {
+  padding: 60px 0px 0px 0px;
+}
+
+.close-menu {
+  display: none;
+}
+
+#main-nav:target {
+  width: 20%;
+}
+
+#main-nav:target + .page-wrap {
+  width: 80%;
+}
+#main-nav:target + .page-wrap .open-menu {
+  display: none;
+}
+#main-nav:target + .page-wrap .close-menu {
+  display: block;
+}
+#main-nav:target + .page-wrap .main-header {
+  width: 80%;
+  left: 20%;
+}
