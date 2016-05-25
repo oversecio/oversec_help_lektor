@@ -15,19 +15,35 @@
 
      <script>
 {% if this.redirect %}
-    function redirectpage(dest) {
-      
-      if (window.location.pathname!=dest) {
-        if (window.location.replace)
-          window.location.replace(dest)
-        else
-          window.location=dest
+      function redirectpage(dest) {
+        
+        if (window.location.pathname!=dest) {
+          if (window.location.replace)
+            window.location.replace(dest)
+          else
+            window.location=dest
+        }
       }
-    }
 
+
+      function resolvePackage(lang,packageAndVersion) {
+        var sp = packageAndVersion.split('$');
+        var package = sp[0];
+        var version = sp[1];
+
+       {% set apps_root = '/w_apps' %}
+       var apps_root = '{{apps_root}}';
+       {% for app in site.get(apps_root).children %}
+          if ('{{app._id}}'==package) {
+            redirectpage(lang+apps_root+'/{{app._id}}#'+version);
+            return;
+          }
+       {% endfor %}
+
+        redirectpage(lang+apps_root+'/nothing-special-known-about-this-app');
+      }  
 
       function resolveAlias(lang,xalias) {
-        
         {% for alias, path in bag('aliases').iteritems() %}
           if ('{{alias}}'==xalias) {
             redirectpage(lang+'{{path}}');
@@ -42,10 +58,13 @@
           var hash =window.location.hash.substring(1);
           if (hash.startsWith('alias_')) {
             resolveAlias(lang,hash.substring(6));
-         }
-         else {
-            redirectpage(lang+'/index.html');
-         }
+          } 
+          else if (hash.startsWith('package_')) {
+            resolvePackage(lang,hash.substring(8));
+          }
+          else {
+              redirectpage(lang+'/index.html');
+          }
      }
 
     /*
@@ -127,15 +146,7 @@ function w3_close() {
 
 <div class="w3-container" style="margin-top:75px">
     {% block body %}{% endblock %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at orci euismod, placerat eros eget, bibendum enim. Integer nunc sem, tempus non elit nec, fermentum vehicula dolor. Cras malesuada sed nunc et euismod. Morbi lectus dolor, maximus et mi vel, ullamcorper eleifend sapien. Nulla purus nunc, laoreet id eros vitae, ultrices finibus ex. Morbi aliquam purus ex, eget mollis sapien convallis sit amet. Nullam ante nisi, semper ut est nec, maximus fringilla mauris. Ut mollis purus id nunc posuere, id tincidunt quam efficitur. Vestibulum auctor felis erat, eu interdum est iaculis eget. Maecenas semper varius bibendum. Phasellus ac nunc quis dui malesuada ornare. Phasellus ut ante sagittis, interdum ipsum vel, imperdiet tellus.
-
-Sed erat justo, dignissim mollis leo vitae, dapibus iaculis justo. Nulla venenatis erat at erat luctus, ac tincidunt ante vestibulum. Nunc risus magna, posuere a tempor et, dapibus eget dui. Etiam non volutpat est. Morbi sit amet ipsum lectus. Integer justo lorem, finibus quis metus vel, blandit suscipit nisl. Aliquam rhoncus sed elit a rhoncus.
-
-Vestibulum eget euismod dui, pharetra lobortis arcu. Phasellus tempus neque libero, sit amet vehicula tortor maximus eu. Fusce fringilla lectus et lectus mattis, quis fermentum neque tincidunt. Praesent posuere sollicitudin mauris et cursus. Nam eu arcu id eros luctus tincidunt. Maecenas aliquam, leo a porttitor finibus, felis augue imperdiet dolor, quis porta nulla lorem in lacus. Nam non efficitur ligula. In eu diam sem. Etiam nec vestibulum erat. Duis bibendum lacus libero, sed tempor ligula hendrerit ut. Curabitur elementum lacus orci, nec euismod sem lobortis sed.
-
-
-  </div>
+</div>
 
 
 <br/>

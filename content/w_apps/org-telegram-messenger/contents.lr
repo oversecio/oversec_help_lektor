@@ -1,0 +1,13 @@
+_model: page
+---
+title: Telegram
+---
+body:
+
+#Telegram
+<a name="7831"><br/></a>
+### Version 3.8.0
+
+Telegram currently doesn't correctly implement accessibility. Messages shown on the screen are not reported to the system and thus even visually impaired people are not able to have them read out by a voice helper app.
+Please report this problem to the Telegram folks to have it fixed in an upcoming version!
+
