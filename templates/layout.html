@@ -31,7 +31,7 @@
         var package = sp[0];
         var version = sp[1];
 
-       {% set apps_root = '/w_apps' %}
+       {% set apps_root = '/setup/per-app-config' %}
        var apps_root = '{{apps_root}}';
        {% for app in site.get(apps_root).children %}
           if ('{{app._id}}'==package) {
@@ -123,7 +123,7 @@ function w3_close() {
   {% for page in [site.root] if page.record_label recursive %}
   <a class="menuentry" href="{{ page|url }}"><h5>{{ page.record_label }}</h5></a>
     {% if page.children %}
-      <div class="menuindent">{{ loop(page.children.order_by('_id')) }}</div>
+      <div class="menuindent">{{ loop(page.children.order_by('sortstring','title')) }}</div>
     {% endif %}
   
   {% endfor %}
