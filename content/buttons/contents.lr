@@ -1,0 +1,30 @@
+_model: page
+---
+title: Buttons
+---
+body:
+
+
+<a name="button_hide"/>
+### Hide/Show-Button
+TODO: 
+<a name="button_hide_visible"/>
+* single tap temporarily hides
+<a name="button_hide_hidden"/>
+* single tap at same position on screen brings back (unhides) oversec
+* long-tap means the "panic" button, clears all remembered passwords and stops oversec.
+
+<a name="button_encrypt"/>
+### Encrypt-Button
+<a name="button_encrypt_initial"/>
+Tap this button to encrypt the entered text. After the text has been encrypted, this button automatically disappears. So if you place this button over the underlying app's "send" or "save" button, you can make sure that you do not accidentially send or save plain text.
+
+<a name="button_encrypt_encryptionparamsremembered"/>
+If you have not encrypted anything yet in this app, tapping this button will bring up a screen to enter or modify the encryption params. Next time you tap this button, those params will be used and the encryption will happen instantly. 
+If you still want to change the encryption params, long-tap on this button to forcefully bring up the encryption-params screen.
+
+
+Note: This button can be dragged around the input field.
+
+###TODO: other buttons (config, Info, camera, decrypt, ...)
+TODO: include pictures of the buttons

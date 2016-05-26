@@ -1,0 +1,25 @@
+_model: page
+---
+title: Encoding
+---
+body:
+
+
+### Invisible Encoding
+
+TODO: descripnt
+
+<a name="insufficientpadding"/>
+TODO: border around input text red/green, enter text until green
+
+<a name="corrupted"/>
+TODO: if accidentially deleted parts of inivisble text, need to clear
+
+###BASE64-Encoding
+
+TODOL use fro SMS / Text, can not be used with PGP
+
+##Ascii-Armoured PGP
+
+TODO: can only be used with PGP
+
