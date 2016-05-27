@@ -1,7 +1,20 @@
 _model: page
 ---
-title: Symmetric Keys
+title:
+
+Symmetric Keys
 
 
 ---
 sortstring: m
+---
+body:
+
+TODO: NO need if using "Simple" or "PGP" encryption.
+
+TODO: key-Types (Random vs. Passphrase based)
+
+TODO: creating keys
+TODO: sharing keys
+TODO: confirming keys
+

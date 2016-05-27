@@ -8,15 +8,59 @@ body:
 <a name="main_help_acsconfig"></a>
 ### Required Setup
 
-TODO: explain how oversec works and why it is an ACS
+The basic operating principle of Oversec is that it constantly monitors the screen for encrypted text. 
 
-TODO: include a screenshot of ACS settings and show what to do there
+To be able to read the screen contents, it has to be enabled as a so called "Accessibility Service".
+
+So as the first step, before you can use Oversec, you need to enable Oversec as an Accessibility Service in Androids "Accessibility Settings".
+
+Tapping on "Configure" will leas you directly to the relevant Settings page:
+
+Now tap on "Oversec"
+<br></br>
+<img src="acs_settings_step_1_L.png"></img>
+<br></br>
+Now tap on the switch in the upper right corner
+<br></br>
+<img src="acs_settings_step_2_L.png"></img>
+<br></br>
+Tap on "OK"
+<br></br>
+<img src="acs_settings_step_3_L.png"></img>
+<br></br>
+Now the switch should be ON. Tap on "BACK"
+<br></br>
+<img src="acs_settings_step_4_L.png"></img>
+<br></br>
+Now Oversec should be "on". Tap on "BACK"
+<br></br>
+<img src="acs_settings_step_5_L.png"></img>
+<br></br>
 
 ### <a name="main_apps"></a>Configure Apps for Oversec
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque convallis dolor sem, semper dapibus ante varius ac. Ut sed felis purus. Aenean imperdiet ante velit, vel venenatis ligula vestibulum eu. Aenean sed leo varius, dictum metus quis, vehicula dui. Integer eleifend ligula et ex egestas, quis euismod justo luctus. Phasellus pulvinar sodales ligula ac dapibus. Duis purus eros, sagittis vitae mauris vitae, euismod ultricies mauris. Sed elementum semper eleifend. Sed in libero quis arcu faucibus sodales ac a nulla. Aenean magna nisl, pulvinar vel quam eu, luctus ullamcorper massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur eu iaculis nisi. Praesent cursus nisi et pretium sagittis. Sed non neque fringilla, tincidunt orci at, pretium eros.
+This is the list of all apps you currently have installed.
+
+The Oversec buttons and overlays will only show on top of apps that are checked here.
+Please review the list and check all apps that you want to work with Oversec.
+
+*Note: Tap on the questionmark icon on any app to show additional, Oversec-related information for this app.*
+ 
+*Note: You can also deactivate an app for Oversec after pressing the Oversec Config-Button while the app is shown.* 
+ 
+### Symmetric Keys
+
+See [Symmetric Keys](/encryption-parameters/symmetric-keys)
+
+
 
 ### <a name="main_settings"></a>General Settings
+
+####Allow Screenshots
+By default, Oversec prevents the system from taking screenhots while showing sensitive information. Depending on the way the screenshots are made, taking screenshots either fails or produces a blank or black image.
+
+You can disable this behavior temporarily if you want to take screenshots to show or tell about Oversec, but we strongly recommend to keep this setting OFF! 
+
 
 ---
 sortstring: b

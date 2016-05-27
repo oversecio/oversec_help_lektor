@@ -8,4 +8,6 @@ TODO: describe panic mode
 Link to Long-Tap Hide BUtton
 Link to Notification
 
+see also  [HideButton](/buttons#button_hide)
+
 To reenable Oversec after the Panic-Button has been pressed, go to the main Oversec screen and tap on "Reactivate"
