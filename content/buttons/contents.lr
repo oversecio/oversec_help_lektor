@@ -38,6 +38,7 @@ So if the Encrypt-BUtton is positioned right above the underlying app's send but
 
 
 
+
 <a name="button_decrypt"></a>
 ### Decrypt-/Clear Button
 This button changes its icon and function depending on the text in the inputfield:
