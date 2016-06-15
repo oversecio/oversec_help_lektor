@@ -16,6 +16,9 @@ Tapping on the same position again (while this and all other buttons are hidden)
 This button also functions as a panic button: Long tapping on this button cleara all remembered passwords, 
 clears all decrypted text and force-stops the Oversec app. (Go to the main Oversec activity to re-activate!)
 
+Double-tapping this button brings up the [per-app configuration page](/setup/per-app-config/) where you can configure various aspects of how Oversec works in conjunction with the current app.
+
+
 *Note: This button can be dragged and placed anywhere on the screen.*
 
 
