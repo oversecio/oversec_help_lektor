@@ -1,0 +1,14 @@
+_model: page
+---
+title: Signal
+---
+body:
+
+#Signal
+<a name="7831"><br/></a>
+### Version 3.16.0
+
+Signal somehow truncates messages that are longer than a certain size,
+Therefore, PGP encryption (with invisible encoding) will not work with signal.
+You may however use symmetric encryption which should still work (messages using symmetric encryption are much smaller thatn PGP encrypted messages)
+
