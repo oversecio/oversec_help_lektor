@@ -2,4 +2,12 @@ _model: page
 ---
 title: Common Settings
 ---
-body: TODO:  "Allow Screenshots"
+body:
+
+### Allow Screenshot
+By default, Oversec will prevent taking screenshots while possible de-crypted text or plain keys are shown on the screen.
+
+An attempt to do such screenshot will either fail or produce a blank / black image.
+
+If you need to do screenshots to blog or write an article about how great Oversec is, you can check the box here to allow screenshots - just don't forget to uncheck once you're done. 
+

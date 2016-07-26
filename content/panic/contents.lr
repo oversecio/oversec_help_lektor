@@ -4,10 +4,21 @@ title: Panic
 ---
 body:
 
-TODO: describe panic mode
-Link to Long-Tap Hide BUtton
-Link to Notification
+Activating Panic-Mode will *immediately*
 
-see also  [HideButton](/buttons#button_hide)
+* forget all entered passwords for "simple" encryption
+* close all unlocked symmetric keys 
+* close all cached keys in OpenKeyChain
+* remove all Oversec overlays, buttons and notifications.
+* force-stop Oversec
 
-To reenable Oversec after the Panic-Button has been pressed, go to the main Oversec screen and tap on "Reactivate"
+so that no indication of anything "secret" will be left on the device (Of course an investigator will still see that the Oversec app is installed on the device)
+
+Panic-Mode can be activated by
+
+* Long-tapping the [Hide Button](/buttons#button_hide)
+* Tapping "STOP" in the Oversec notification
+
+To re-enable Oversec after Panic-Mode has been entered, go to the main Oversec app and tap on "Reactivate"
+
+

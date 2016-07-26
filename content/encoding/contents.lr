@@ -4,22 +4,24 @@ title: Encoding
 ---
 body:
 
+Oversec provides multiple methods of encoding an encrypted message:
 
-### Invisible Encoding
+### Invisible (Decoy) Encoding
+This unique method encodes the encrypted text as invisible (zero width) characters at the beginning of the text.
+The text is then padded with  [decoy content](/setup/decoy) to make sure that the receiving device provides enough screen-space to render the decrypted 
 
-TODO: description, link to  [Decoy Content](/setup/decoy)
+<a name="insufficientpadding"></a>
+When entering or editing the decoy text, a border is drawn around the input field. 
+The border color will turn red if the decoy text is too short and there will probably not be enough screen space on the receivnig device to show the decrypted text.  The border color will turn green if enough decoy text has been entered.
 
-<a name="insufficientpadding"/>
-TODO: border around input text red/green, enter text until green
-
-<a name="corrupted"/>
-TODO: if accidentially deleted parts of inivisble text, need to clear
+<a name="corrupted"></a>
+When editing the decoy text, it may happen that you accidentally delete parts of the invisible encrypted text. If this happens, Oversec will show an error  and you will have to start over! (There is no way to recover the plain text!)
 
 ###BASE64-Encoding
+This encodes the encrypted text as a series of printable characters, guaranteed to work with all apps and systems. 
 
-TODOL use fro SMS / Text, can not be used with PGP
+This is mainly intended for use with [symmetric encryption](/encryption-parameters/#sym) for legacy SMS text messages.
 
-##Ascii-Armoured PGP
-
-TODO: can only be used with PGP
+###Ascii-Armoured PGP
+This is only available for [PGP encoded](/encryption-parameters/#pgp) messages and encodes them as a "ascii armoured" string.
 

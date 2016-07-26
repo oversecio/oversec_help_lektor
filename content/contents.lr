@@ -1,17 +1,15 @@
-title: Welcome to Oversec Help!
+_model: page_index
+---
+title: Welcome
 ---
 body:
 
-TODO whatever.
-
-
-
-Before you can start using Oversec, you need to enable it in the Android settings.
-
+**Before you can start using Oversec, you need to enable it in the Android settings.**
 [Click here for more info](/setup)
 
-TODO: include full sitempap
-
+Please look around in this help document by using the sitemap below or the navigation menu &#9776;
 
 ---
 redirect: yes
+---
+_template: page_index.html

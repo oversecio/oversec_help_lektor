@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="{{ '/static/style.css'|url }}">
 
 
-  <title>{% block title %}Welcome{% endblock %} — Oversec Help</title>
+  <title>{% block title %}Welcome{% endblock %} — Oversec Online Help</title>
 
      <script>
 {% if this.redirect %}
@@ -136,15 +136,17 @@ function w3_close() {
 
   <span class="headline">
   <i class="w3-opennav fa fa-bars" onclick="w3_open()"></i>
-  Oversec Help
+  Oversec Online Help
   </span>
   <div style="float: right; display: inline-block; margin-right:5px">
+  <!--
       <a href="{{ '.'|url(alt='de') }}"><img src="{{ '/static/flags/DE.png'|url }}"></a>
+  -->
       <a href="{{ '.'|url(alt='') }}"><img src="{{ '/static/flags/GB.png'|url }}"></a>
   </div>
 </header>
 
-<div class="w3-container" style="margin-top:75px">
+<div class="w3-container" style="margin-top:30px">
     {% block body %}{% endblock %}
 </div>
 

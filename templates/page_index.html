@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+  
+  <h2>{{ this.title }}</h2>
+  {{ this.body }}
+
+  <h4>Sitemap:</h4>
+
+
+<ul class="sitemap">
+  {% for page in [site.root] recursive  %}
+  <li><a href="{{ page|url }}">{{ page.record_label }}</a>
+    {% if page.children %}
+      <ul>{{ loop(page.children) }}</ul>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>
+
+{% endblock %}

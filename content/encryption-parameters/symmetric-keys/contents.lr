@@ -10,11 +10,83 @@ sortstring: m
 ---
 body:
 
-TODO: NO need if using "Simple" or "PGP" encryption.
+####Note: You don't need any symmetric key if you're using the "simple", password-based encryption or PGP encryption.
 
-TODO: key-Types (Random vs. Passphrase based)
+##Creating a Key
+Tap on (+) to create a new key. Select one of the available key types:
 
-TODO: creating keys
-TODO: sharing keys
-TODO: confirming keys
+<a name="random"></a>
+###Random Key
+Creates a random 256-bit secret key.
+
+It is impossible to crack such key, but it will take some effort to securely share it with your remote party.
+
+Please wait a few seconds while Oversec creates the key, then enter an Alias or Name for the key and finally tap the "Save" button.
+
+
+<a name="pbkdf"></a>
+###Password-based Key
+Creates a key based on a passphrase.
+
+This is less secure, but you only need to agree on a passphrase, so the other party can generate a matching key.
+
+Note that this is still safer than using the "simple" passphrase  based encryption mode, as Oversec will require a lot of computing power to derive a 256 bit symmetric key from the passphrase.
+
+Please enter a secure and long passphrase or tap on "Suggest Strong Password" to let Oversec generate a secure passphrase for you.
+Then repeat-type the password to make sure you have remembered it. Then tap "continue"
+
+Please wait a few seconds while Oversec calculates a key based on the passphrase, then enter an Alias or Name for the key and finally tap the "Save" button.
+
+<a name="scan"></a>
+##Sharing / Importing a Key
+The best way to import a key is to directly scan it from the other phone via QR-Code:
+####Alice
+* Open the key you want to share
+* tap on "reveal" to show the full QR-Code
+* (you may have to enter the key password to do this)
+
+####Bob
+* Tap on (+) to create a new key, then select "QR-Code"
+* Scan the QR-Code from Alice's phone.
+* Enter an Alias for the key and finally tap the "Save" button.
+
+
+###If you have received an image of the QR-Code some other way:
+* Open the image
+* Tap "Share"
+* Select (Oversec) "Import Key"
+* Enter the passphrase that protects the key
+* Enter an Alias for the key and finally tap the "Save" button.
+* *Make sure to verify and confirm this key* (see below)
+
+
+##Sharing 
+To share a key on an unsecure channel (i.e. email) 
+
+* Open the key details
+* Tap on "Menu" and select "Send encrypted"
+* You may first need to unlock the key
+* Enter and repeat a sharing password to protected the key. 
+* The person who received this key will need to know this password in order to import the key.
+* Select the app to share the key with.
+
+##Backup
+To back up your keys by e.g. printing the out on a piece of paper or storing them on removable media:
+
+* Open the key details
+* Tap on "Menu" and select "View/print encrypted"
+* You may first need to unlock the key
+* Enter and repeat a sharing password to protected the key. 
+* You will need to remember this password to restore / import those keys at a later time!
+* Select the app to view / print / save the key with.
+
+
+<a name="details"></a>
+
+##Confirming Keys
+When importing keys from another source, they will be marked as "unconfirmed". 
+This is because keys can possibly be tampered with before you get to import them.
+
+You need to contact the person you got the key from via a secure channel (phonecall?) and compare the key fingerprints.
+To start this process, open the key and tap the (&#10003;) button
 

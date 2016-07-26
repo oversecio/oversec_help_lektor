@@ -4,25 +4,102 @@ title: Per-App Configuration
 ---
 body:
 
-
-
-
-### <a name="main"></a>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque convallis dolor sem, semper dapibus ante varius ac. Ut sed felis purus. Aenean imperdiet ante velit, vel venenatis ligula vestibulum eu. Aenean sed leo varius, dictum metus quis, vehicula dui. Integer eleifend ligula et ex egestas, quis euismod justo luctus. Phasellus pulvinar sodales ligula ac dapibus. Duis purus eros, sagittis vitae mauris vitae, euismod ultricies mauris. Sed elementum semper eleifend. Sed in libero quis arcu faucibus sodales ac a nulla. Aenean magna nisl, pulvinar vel quam eu, luctus ullamcorper massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur eu iaculis nisi. Praesent cursus nisi et pretium sagittis. Sed non neque fringilla, tincidunt orci at, pretium eros.
-
-### <a name="appearance"></a>Visual Appearance
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque convallis dolor sem, semper dapibus ante varius ac. Ut sed felis purus. Aenean imperdiet ante velit, vel venenatis ligula vestibulum eu. Aenean sed leo varius, dictum metus quis, vehicula dui. Integer eleifend ligula et ex egestas, quis euismod justo luctus. Phasellus pulvinar sodales ligula ac dapibus. Duis purus eros, sagittis vitae mauris vitae, euismod ultricies mauris. Sed elementum semper eleifend. Sed in libero quis arcu faucibus sodales ac a nulla. Aenean magna nisl, pulvinar vel quam eu, luctus ullamcorper massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur eu iaculis nisi. Praesent cursus nisi et pretium sagittis. Sed non neque fringilla, tincidunt orci at, pretium eros.
-
-
-
-### <a name="lab"></a>Lab
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque convallis dolor sem, semper dapibus ante varius ac. Ut sed felis purus. Aenean imperdiet ante velit, vel venenatis ligula vestibulum eu. Aenean sed leo varius, dictum metus quis, vehicula dui. Integer eleifend ligula et ex egestas, quis euismod justo luctus. Phasellus pulvinar sodales ligula ac dapibus. Duis purus eros, sagittis vitae mauris vitae, euismod ultricies mauris. Sed elementum semper eleifend. Sed in libero quis arcu faucibus sodales ac a nulla. Aenean magna nisl, pulvinar vel quam eu, luctus ullamcorper massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur eu iaculis nisi. Praesent cursus nisi et pretium sagittis. Sed non neque fringilla, tincidunt orci at, pretium eros.
-
 <div class="buttoncircle"><img src="ic_settings_black_24dp.png"/></div>
-* Note This configuration page can also be  opened by tapping the Oversec config button* 
+Note This configuration page can also be  opened by tapping the Oversec config button from within any oversec-enabled app.
+
+<a name="main"></a>
+##Options 
+General options
+
+####Enable Oversec
+Oversec will only show itself on top of apps that are enabled here.
+
+####Config Button
+Shows the [Config Button] (/buttons#button_config) that allows direct access to this config page.
+
+Once you're done with the basic configuration, you can safely disable this button - you can still access the app config through the notification bar or through the main oversec app.
+
+####Start hidden
+When checked, Oversec will not initially be shown when entering an Oversec-enabled app. You will have to tap on the (inivisible)  [Hide Button] (/buttons#button_hide) to show the Oversec screen overlay.
+
+####Hide Button
+Shows the [Hide Button] (/buttons#button_hide) that allows to temporarily hide the Oversec screen overlay.
+
+Hint: This buttons also doubles as [Panic Button](/panic), so it's recommended to always keep this button enabled!
+
+####Decrypt/Clear Button
+Shows the [Decrypt Button] (/buttons#button_decrypt) that allows to decrypt or clear the current input field.
+
+####Camera Button
+Shows the [Camera Button] (/buttons#button_camera) that allows you do [directly take and send encrypted photos](/encrypting-images)
+
+<a name="appearance"></a>
+##Appearance
+Visual appearance
+
+Fine-Tune the visual appearance of the Oversec screen overlays - things like fonts, sizes, padding, colors, transparencies etc.
+
+
+<a name="lab"></a>
+##Lab
+Extended and incubating options
+
+####Info Button
+En-/Disables the [Info Button] (/buttons#button_info) to display additional encryption information.
+
+####Tap to show info
+When enabled, tapping on an encrypted text will show detailed encryption info.
+
+**Warning: This might interfere with the UX of the underlying app, as it will not longer receive some tap events!**
+
+####Long-Tap to show info</string>
+When enabled, long-tapping on an encrypted text will show detailed encryption info.
+
+**Warning: This might interfere with the UX of the underlying app, as it will not longer receive some long-tap events!**
+
+####Encrypt Button
+Show the [Encrypt Button] (/buttons#button_encrypt) next to the active input field.
+
+ (Decrypt button also won't show if encrypt button is not shown)
+ 
+ ####Toggle encrypt button on long-tap
+Shows or hides the  [Encrypt Button] (/buttons#button_encrypt)  when long-tapping on an input field.
+
+**Warning: This might interfere with the UX of the underlying app!**
+
+####Show input dialogs immediately
+When a (password) input dialog is about to be shown in order to decrypt, show it immediately without asking the user first.
+   
+####Notification
+Show a permanent notification to control Oversec through the Android status bar.
+
+####Show decrypt overlay above input
+Show the decrypted (plain) text right *above* an active input field, making it easier to manually review or edit the decoy text.
+
+####Expand decrypted text vertically
+Allocates more vertical space for decrypted text if it doesn't fit into the space used by the encrypted text. 
+
+**Warning: May obstruct parts of the underlying app.**
+
+####Keep Line Breaks
+If plain text contains line breaks, put equal number of breaks into the decoy text. 
+
+**Warning: Leaks some (meta) information about the plaintext.**
+
+####Add padding before encrypting
+Add (at max) this number of random bytes before encrypting. This prevents an attacker from guessing the original message by the number of characters 
+
+####Singleton encryption params
+Stores only one set of encryption parameters per app. This is intended for notes keeping apps only, it should not be enabled for communication apps, where Oversec will try to keep distinct parameters per thread or conversation.
+
+####Always show encryption params
+When enabled, Oversec will never automatically reuse previous encryption parameters, but always show the encryption parameters screen before encrypting.
+
+####High Quality Scraping
+Performs more frequent and deeper screen reading. Produces a smoother UX at the cost of increased battery use.
+
+####Scrape All Views
+Include views that are deemed as "Not Important". This is needed for a few apps only and it slows down Oversec and uses more battery!
 
 ---
 sortstring: m

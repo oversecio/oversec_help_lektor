@@ -3,24 +3,49 @@ title: Encryption Parameters
 body:
 
 <a name="simple"><br/></a>
-### Simple
+# Simple
+Encrypt by sharing a simple password only.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque convallis dolor sem, semper dapibus ante varius ac. Ut sed felis purus. Aenean imperdiet ante velit, vel venenatis ligula vestibulum eu. Aenean sed leo varius, dictum metus quis, vehicula dui. Integer eleifend ligula et ex egestas, quis euismod justo luctus. Phasellus pulvinar sodales ligula ac dapibus. Duis purus eros, sagittis vitae mauris vitae, euismod ultricies mauris. Sed elementum semper eleifend. Sed in libero quis arcu faucibus sodales ac a nulla. Aenean magna nisl, pulvinar vel quam eu, luctus ullamcorper massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur eu iaculis nisi. Praesent cursus nisi et pretium sagittis. Sed non neque fringilla, tincidunt orci at, pretium eros.
+This is a good way to try out Oversec, but it's possibly not very secure: An attacker can simply try out / guess the password, so make sure you use a very long and complicated password.
+
+###Adding Passwords
+To encrypt or decrypt, you will first have to add another password by tapping "Add Password". Oversec will keep and remember a password until the time you specify when entering the password.
+
+Once a password has expired, it is completely gone. You will have to enter it again on this page!
+
+###Selecting Passwords
+To encrypt with one or multiple passwords, simply tap on the checkbox next to each password. Oversec will encrypt the message for each of the selected passwords - anybody who knows at least one of the selected passwords will be able to decrypt the message.
+
 
 <a name="sym"><br/></a>
-### Symmetric
+#Symmetric
+Encrypt by sharing a secure symmetric key
 
+This is a very safe way to encrypt, but you will have to share the encryption key through a safe channel - ideally by meeting in person and …[sharing the symmetric key via Camera and QR-Code](/encryption-parameters/symmetric-keys/key-create).
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque convallis dolor sem, semper dapibus ante varius ac. Ut sed felis purus. Aenean imperdiet ante velit, vel venenatis ligula vestibulum eu. Aenean sed leo varius, dictum metus quis, vehicula dui. Integer eleifend ligula et ex egestas, quis euismod justo luctus. Phasellus pulvinar sodales ligula ac dapibus. Duis purus eros, sagittis vitae mauris vitae, euismod ultricies mauris. Sed elementum semper eleifend. Sed in libero quis arcu faucibus sodales ac a nulla. Aenean magna nisl, pulvinar vel quam eu, luctus ullamcorper massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur eu iaculis nisi. Praesent cursus nisi et pretium sagittis. Sed non neque fringilla, tincidunt orci at, pretium eros.
+###Adding keys
+Please use the main Oversec app to [create and organize your symmetric keys](/encryption-parameters/symmetric-keys/key-create).
+
+###Selecting Keys
+To encrypt with one or multiple keys, simply tap on the checkbox next to each key. Oversec will encrypt the message for each of the selected keys - anybody who has at least one of the selected keys will be able to decrypt the message.
 
 
 <a name="pgp"><br/></a>
-### PGP
-
+##PGP
+Encrypt with PGP public/private keys. You need the [OpenKeyChain App](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain) to use this method and manage your PGP keys.
+<br/>
 ####Important: PGP encryption adds about 2 kilobytes or more of data to your encrypted message. Please consider this and depending on your data plan you might want to use symmetric encryption instead (which requires much less data).
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque convallis dolor sem, semper dapibus ante varius ac. Ut sed felis purus. Aenean imperdiet ante velit, vel venenatis ligula vestibulum eu. Aenean sed leo varius, dictum metus quis, vehicula dui. Integer eleifend ligula et ex egestas, quis euismod justo luctus. Phasellus pulvinar sodales ligula ac dapibus. Duis purus eros, sagittis vitae mauris vitae, euismod ultricies mauris. Sed elementum semper eleifend. Sed in libero quis arcu faucibus sodales ac a nulla. Aenean magna nisl, pulvinar vel quam eu, luctus ullamcorper massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur eu iaculis nisi. Praesent cursus nisi et pretium sagittis. Sed non neque fringilla, tincidunt orci at, pretium eros.
+###Own Key
+If you haven't done so yet, select your own PGP key next to "myself". You need to do this if you want to be able to encrypt messages yourself or if you want to sign messages.
 
+###Signing a message
+Check the "Sign Message" checkbox to sign the message with your own private key.
+
+###Recipients
+Tap the (+) button to add recipients. This will open the OpenKeyChain app where you can select one or more public keys. (You can download / manage public keys in that app!)
+
+Oversec will encrypt the message with the public keys of each of the selected recipients and yourself - anybody who has a matching private key will be able to decrypt his message.
 
 
 ---

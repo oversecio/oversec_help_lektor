@@ -4,5 +4,32 @@ title: Encrypting Images
 ---
 body:
 
-TODO: describe sharing of images from gallery
-TODO: describe decrypting of (received) images
+###Encrypting an existing image
+To encrypt and send an existing image:
+* In your Photos or Gallery app, open the picture
+* Tap on "Share"
+* Tap on "Encrypt Image"
+* Next, tap on the app you want to send the encrypted image with
+* Enter / adjust [encryption parameters](/encryption-parameters)
+* Tap the [Encrypt button](/buttons#button_encrypt)
+* Select chat / contact / recipient in the sender app.
+
+###Taking an encrypted photo
+Oversec allows you to take a photo and send or store it as encrypted photo, without ever saving the plain photo to your device!
+
+To take an encrypted photo:
+* Enable the [Camera button](/buttons#button_camera) for the app
+* Tap on the  [Camera button](/buttons#button_camera) 
+* Take and confirm the photo
+* Enter / adjust [encryption parameters](/encryption-parameters)
+* Tap the [Encrypt button](/buttons#button_encrypt)
+* Select chat / contact / recipient in the underlying app.
+
+###Decrypting an image
+To decrypt and show the contents of an encrypted image:
+* Open / view the encrypted image
+* Tap on "Share" 
+* Tap on "Decrypt Image"
+* Enter passphrase / unlock key
+
+
