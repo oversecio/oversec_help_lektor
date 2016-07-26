@@ -61,7 +61,7 @@ The best way to import a key is to directly scan it from the other phone via QR-
 
 
 ##Sharing 
-To share a key on an unsecure channel (i.e. email) 
+To share a key on an insecure channel (i.e. email) 
 
 * Open the key details
 * Tap on "Menu" and select "Send encrypted"

@@ -10,5 +10,5 @@ body:
 
 Signal somehow truncates messages that are longer than a certain size,
 Therefore, PGP encryption (with invisible encoding) will not work with signal.
-You may however use symmetric encryption which should still work (messages using symmetric encryption are much smaller thatn PGP encrypted messages)
+You may however use symmetric encryption which should still work (messages using symmetric encryption are much smaller than PGP encrypted messages)
 

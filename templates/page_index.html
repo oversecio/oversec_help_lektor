@@ -9,13 +9,16 @@
 
 
 <ul class="sitemap">
-  {% for page in [site.root] recursive  %}
-  <li><a href="{{ page|url }}">{{ page.record_label }}</a>
+  {% for page in [site.root] if page.record_label recursive %}
+  <li>
+  <a  href="{{ page|url }}"><h5>{{ page.record_label }}</h5></a>
+
     {% if page.children %}
-      <ul>{{ loop(page.children) }}</ul>
+      <ul>{{ loop(page.children.order_by('sortstring','title')) }}</ul>
     {% endif %}
   </li>
   {% endfor %}
+
 </ul>
 
 {% endblock %}

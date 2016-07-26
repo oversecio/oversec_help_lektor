@@ -20,7 +20,7 @@ Shows the [Config Button] (/buttons#button_config) that allows direct access to 
 Once you're done with the basic configuration, you can safely disable this button - you can still access the app config through the notification bar or through the main oversec app.
 
 ####Start hidden
-When checked, Oversec will not initially be shown when entering an Oversec-enabled app. You will have to tap on the (inivisible)  [Hide Button] (/buttons#button_hide) to show the Oversec screen overlay.
+When checked, Oversec will not initially be shown when entering an Oversec-enabled app. You will have to tap on the (invisible)  [Hide Button] (/buttons#button_hide) to show the Oversec screen overlay.
 
 ####Hide Button
 Shows the [Hide Button] (/buttons#button_hide) that allows to temporarily hide the Oversec screen overlay.
