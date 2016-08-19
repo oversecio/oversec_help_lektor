@@ -34,7 +34,7 @@ If you have not encrypted anything yet in this app, tapping this button will bri
 If you still want to change the encryption params, long-tap on this button to forcefully bring up the encryption-params screen.
 
 *Hint: Double-tapping this button will hide it for a short time, so that the underlying app's buttons can be tapped.
-So if the Encrypt-BUtton is positioned right above the underlying app's send button, you can _triple_ tap at this position to send an _unencrypted_ message!* 
+So if the Encrypt-Button is positioned right above the underlying app's send button, you can _triple_ tap at this position to send an _unencrypted_ message!* 
 
 *Note: This button can be dragged and placed around the input field.*
 

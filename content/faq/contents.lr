@@ -2,8 +2,8 @@ title: FAQ
 ---
 body:
 
-###Q: Why aren't there any entries in this FAQ yet
-A: Well....
+###Q: Why is there no Oversec for iPhones?
+A: Unfortunately it is technically not possible to implement Oversec's functionality on iOS - it's lacking public accessibility APIs in the first place
 
 
 ---

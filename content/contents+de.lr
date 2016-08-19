@@ -1,8 +1,14 @@
+_model: page_index
+---
+title: Willkommen
+---
 body:
 
-This is a basic demo website that shows how to use Lektor for a basic
-website with some pages.
+**Bevor du Oversec benutzen kannst, musst du es in den Android Einstellungen aktivieren.**
+[Anleitung](/setup)
+
+Du kannst diese Hilfe mittels der Sitemap unten oder mit dem Navigationsmenu &#9776; bedienen!
 ---
-title: Willommen zur Oversec Hilfe
+redirect: yes
 ---
-redirect: no
+_template: page_index.html

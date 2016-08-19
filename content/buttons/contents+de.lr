@@ -1,0 +1,108 @@
+_model: page
+---
+title: Buttons
+---
+body:
+
+
+<a name="button_hide"></a>
+### Verstecken Button 
+<div class="buttoncircle"><img  src="ic_clear_black_24dp.png"></img></div> 
+
+Berühre diesen Button um Oversec zeitweise zu verstecken.
+
+Wenn Du den Bildschirm an der gleichen Stelle nochmals berührst, wird Oversec wieder sichtbar!
+
+Dieser Button dient auch als Panik-Button: Berühre ihn _lang_ um den [Panik Modus](/panic) zu aktivieren.
+
+Doppelt-Berühren bring dich zur [App Konfiguration](/setup/per-app-config/) wo du Oversec für die gerade aktive App konfigurieren kannst.
+
+
+*Tipp: Dieser Button kann mittels Drag&Drop überall auf dem Bildschirm positioniert werden.*
+
+
+
+<a name="button_encrypt"></a>
+### Verschlüsseln Button
+<div class="buttoncircle"><img src="ic_lock_black_24dp.png"></img></div>
+
+<a name="button_encrypt_initial"></a>
+Berühre diesen Button um den gerade eingegebenen Text zu verschlüsseln. Nachdem der Text verschlüsselt wurde, verschwindet dieser Button automatisch. Wenn du also diesen Button direkt über den "Senden" Button der darunterliegenden App positionierst, stellst Du damit sicher dass nicht versehentlich unverschlüsselter Text versendet wird. 
+
+<a name="button_encrypt_encryptionparamsremembered"></a>
+Nach dem ersten Berühren, gelangst Du mit diesem Button auf eine Seite, wo Du die Verschlüsselungseinstellungen angeben kannst.
+Beim nächsten Mal werden diese Einstellungen automatisch verwendet und die Verschlüsselung erfolgt sofort.
+Wenn Du die Einstellungen wieder ändern willst, berühre diesen Button _lang_, um die Seite mit den Verschlüsselungseinstellungen wieder anzuzeigen.
+
+*Tipp: Doppelt-Berühren versteckt den Button für eine kurze Zeit, so dass ein Button in der darunterliegenden App sichtbar wird.
+Wenn der Verschlüsseln-Button also direkt über dem "Senden" Button der darunterliegenden App positioniert ist, kannst Du durch _dreimal_ Berühren eine unverschlüsselte Nachricht senden.
+
+*Tipp: Dieser Button kann mittels Drag&Drop in der Nähe des Eingabefelds positioniert werden.*
+
+
+
+<a name="button_decrypt"></a>
+### Entschlüsseln-/Löschen Button
+Das Icon auf diesem Button ändert sich, je nachdem welcher Text im Eingabefeld steht:
+
+<div class="buttoncircle"><img src="ic_lock_open_black_24dp.png"></img></div>
+
+Es befindet sich verschlüsselter Text im Eingabefeld. Berühre diesen Button um den Text zu entschlüsseln.
+
+*Hinweis: Diese Funktion ist aus Sicherheitsgründen nicht Android Kitkat verfügbar!*
+
+
+<div class="buttoncircle"><img  src="ic_backspace_black_24dp.png"></img></div>
+
+Es befindet sich unverschlüsselter Text im Eingabefeld. Berühre diesen Button um den Text komplett zu entfernen.
+
+
+*Tipp: Dieser Button kann mittels Drag&Drop in der Nähe des Eingabefelds positioniert werden.*
+
+
+<a name="button_info"></a>
+### Info Button
+
+
+<div class="buttoncircle"><img src="ic_info_outline_black_24dp.png"></img></div>
+
+Berühre diesen Button um in den Info-Modus zu gelangen. 
+
+Im Info-Modus wird neben jedem verschlüsseltem Text, der auf dem Bildschirm gefunden wird, ein kleiner Info-Button angezeigt.
+Berühre einen kleinen Info-Button um detaillierte Informationen zur Verschlüsselung anzuzeigen.
+
+
+<div class="buttoncircle"><img  src="ic_not_interested_black_24dp.png"></img></div>
+
+Wenn im Info-Modus, wird der Button wie oben angezeigt. Berühre ihn um dem Info Modus wieder zu verlassen. 
+
+*Tipp: Dieser Button kann mittels Drag&Drop überall auf dem Bildschirm positioniert werden.*
+
+*Tipp: Dieser Button ist standardmäßig nicht sichtbar.Berühre den Konfiguration Button um die [App Konfigurations Seite](/setup/per-app-config/) zu öffnen, wo Du dann den Info Button aktivieren kannst. 
+
+*Tipp: Lang Berühren des Info Buttons bringt öffnet die [App Konfigurations Seite](/setup/per-app-config/) (siehe unten). Du kannst also den Info Button aktivieren und den Konfiguration Button deaktivieren, und kannst trotzdem jederzeit die Konfiguration durch lang Berühren des Info Buttons öffnen.
+
+
+<a name="button_config"></a>
+### Konfiguration Button
+<div class="buttoncircle"><img src="ic_settings_black_24dp.png"></img></div>
+
+Berühre diesen Button um die [App Konfigurations Seite](/setup/per-app-config/) zu Öffnen, wo du Oversec für die gerade aktive App konfigurieren kannst.
+
+
+*Tipp: Dieser Button kann mittels Drag&Drop überall auf dem Bildschirm positioniert werden.*
+
+
+
+<a name="button_camera"></a>
+### Kamera Button
+<div class="buttoncircle"><img src="ic_camera_alt_black_24dp.png"></img></div>
+
+Mit diesem Button kannst du ein verschlüsseltes Foto aufnehmen.
+
+Dieser Button wird nur in Apps angezeigt, die das versenden von Bildern erlauben.
+Du kannst in der [App Konfigurations Seite](/setup/per-app-config/) bestimmen, ob Du diesen Button sehen willst oder nicht.
+
+*Tip: Dieser Button kann mittels Drag&Drop überall auf dem Bildschirm positioniert werden.*
+---
+sortstring: a

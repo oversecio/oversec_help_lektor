@@ -1,0 +1,13 @@
+_model: page
+---
+title: Allgemeine Einstellungen
+---
+body:
+
+### <a name="main_settings"></a>Allgemeine Einstellungen
+
+####Screenshot erlauben
+Standardmässig verhindert Oversec, dass Screenshots gemacht werden während potentiell private (entschlüsselte) Texte und Schlüssel angezeigt werden. Entweder funktioneren die Screenshots überhaupt nicht, oder sie sind komplett schwarz.
+
+Du kannst diesen Schutz (zeitweise) ausschalten, wenn du z.B. Screenshots erstellen möchtest, um über Oversec zu berichten. Bitte vergesse nicht, die Funktion danach wieder einzuschalten.
+

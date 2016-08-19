@@ -1,0 +1,39 @@
+_model: page
+---
+title: Bilder Verschlüsseln
+---
+body:
+
+###Verschlüsseln eines vorhandenen Bilds
+Um ein vorhandenes Bild zu verschlüsseln und zu versenden:
+* Öffnen das Bild in deiner Photo oder Gallery App
+* Wähle "Teilen"
+* Wähle dann "Bild Verschlüsseln" (Oversec Logo)
+* Wähle als Nächstes die App aus, mit der Du das verschlüsselte Bild senden willst.
+* Gibt die [Verschlüsselungseinstellungen](/encryption-parameters) an oder ändere sie.
+* Berühre den [Verschlüsseln Button](/buttons#button_encrypt)
+* Wähle in der Ziel-App den Empfänger aus.
+
+###Ein verschlüsseltes Foto machen
+Mit Oversec kannst Du direkt mit der Kamera ein verschlüsseltes Foto machen , ohne dass das Foto jemals unverschlüsselt gespeichert wird. 
+
+Um ein verschlüsseltes Foto zu machen:
+* Aktiviere den [Kamera Button](/buttons#button_camera) für die App
+* Berühre den [Kamera Button](/buttons#button_camera) 
+* Mach' das Bild und bestätige es.
+* Wähle als Nächstes die App aus, mit der Du das verschlüsselte Bild senden willst.
+* Gibt die [Verschlüsselungseinstellungen](/encryption-parameters) an oder ändere sie.
+* Berühre den [Verschlüsseln Button](/buttons#button_encrypt)
+* Wähle in der Ziel-App den Empfänger aus.
+
+
+###Bilder entschlüsseln
+Um ein verschlüsseltes Bild zu entschlüsseln und anzuzeigen:
+* Öffne das verschlüsselte Bild bzw. zeige es an.
+* Wähle "Teilen" 
+* Wähle "Bild entschlüsseln" 
+* Gib' dein Passwort ein 
+
+
+---
+sortstring: i

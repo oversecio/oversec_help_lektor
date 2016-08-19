@@ -1,0 +1,93 @@
+_model: page
+---
+title:
+
+Symmetrische Schlüssel
+
+
+---
+sortstring: m
+---
+body:
+
+####Hinweis: Du benötigst keine symmetrische Schlüssel wenn du nur die einfache Verschlüsselung mit Passwörtern benutzt,
+
+##Schlüssel erzeugen
+Berühre den (+) Button um einen neuen Schlüssel zu erzeugen, wähle dann den Schlüsseltyp aus:
+
+<a name="random"></a>
+###Zufälliger Schlüssel
+Erzeugt einen zufälligen 256 Bit Schlüssel.
+
+Er ist unmöglich solch einen Schlüssel zu knacken, aber dafür ist es etas aufwändiger, den Schlüssel auf sicherem Wege mit deinen Kontakten auszutauschen.
+
+Bitte warte ein paar Sekunden während Oversec den Schlüssel erzeugt. Gib dann den Alias-Namen für den Schlüssel ein und berühre den Speichern Button.
+
+
+<a name="pbkdf"></a>
+###Passwortbasierter Schlüssel
+Erzeugt einen Schlüssel auf Basis eines Passworts.
+
+Dieser Schlüsseltyp ist weniger sicher, aber es ist einfacher, das Passwort z.B. per Telefon auszutauschen.
+
+Dies ist allerdings trotzdem sicherer als die "einfache" Verschlüsselung nur mit Passwörtern, denn Oversec verlangt ein grosses Mass an Rechenpower um einen 256 Bit Schlüssel aus dem Passwort zu erzeugen.
+
+Bitte gib eine sicheres, langes Passwort ein oder Berühre "Sicheres Passwort Vorschlagen".
+Wiederhole dann das Passwort, um sicherzustellen, dass du es korrekt erinnerst. Berühre dann "Weiter".
+
+Bitte warte ein paar Sekunden bis Oversec den Schlüssel aus dem Passwort erzeugt hat.  Gib dann den Alias-Namen für den Schlüssel ein und berühre den Speichern Button.
+
+<a name="scan"></a>
+##Schlüssel Teilen oder Importieren
+Der einfachste Wege, einen Schlüssel zu importieren, ist es, direkt den Oversec QR-Code vom Handy deines Kontakts zu scannen.
+####Alice
+* Öffne den Schlüssel den Du Teilen willst.
+* Berühre "Anzeigen um den komplette QR-Code anzuzeigen.
+* (Evtl. musst du das Schlüssel-Passwort angeben.)
+
+####Bob
+* Berühre (+) um einen neuen Schlüssel anzulegen, wähle dann "QR-Code".
+* Scanne den QR-Code von Alice's Handy.
+* Gib dann den Alias-Namen für den Schlüssel ein und berühre den Speichern Button.
+
+
+###Wenn du ein Bild des QR-Codes z.B. per E-Mail oder Chat erhalten hast.
+* Öffne das Bild und zeige es an.
+* Wähle "Teilen".
+* Wähle "Schlüssel importieren" (Oversec Icon)
+* Gib' das Passwort ein, das den Schlüssel schützt. (Frage den Absender!) 
+* Gib dann den Alias-Namen für den Schlüssel ein und berühre den Speichern Button.
+* *Du solltest nun den Schlüssel überprüfen und bestätigen (siehe unten).
+
+
+##Teilen 
+Um einen Schlüssel über eine unsichere Verbindung (z.B. unverschlüsselte E-Mail) zu teilen:
+
+* Öffne den Schlüssel und zeige ihn an.
+* Berühre das Menü und wähle "verschlüsselt senden"
+* Eventuell musst du den Schlüssel zuerst entsperren.
+* Gib' ein Passwort ein, das den Schlüssel schützt. 
+* Die Person, die den Schlüssel empfängt, benötigt dieses Passwort um den Schlüssel zu importieren.
+* Wähle die App aus, mit der Du den Schlüssel versenden willst.
+
+##Backup
+Du kannst ein Backup eines Schlüssels erstellen indem du ihn ausdruckst oder auf einer SD-Karte speicherst:
+
+* Öffne den Schlüssel und zeige ihn an.
+* Berühre das Menü und wähle "verschlüsselt anzeigen/drucken"
+* Eventuell musst du den Schlüssel zuerst entsperren.
+* Gib' ein Passwort ein, das den Schlüssel schützt. 
+* Du benötigst dieses Passwort, um später den Schlüssel wieder importieren zu können.
+* Wähle die App aus, mit der Du den Schlüssel drucken oder speichern willst.
+
+
+<a name="details"></a>
+
+##Schlüssel bestätigen
+Wenn du Schlüssel von woanders importierst, werden diese zuerst als "unbestätigt" markiert,
+weil du nicht sicher sein kannst, dass der Schlüssel unterwegs geändert wurde.
+
+Du musst die Person, die dir den Schlüssel gesendet hat, über eine sichere Verbindung (z.B. Telefonanruf) kontaktieren, und dann
+die Fingerabdrücke der Schlüssel vergleichen.
+Öffne dazu den Schlüssel und berühre den (&#10003;) Button.
+
