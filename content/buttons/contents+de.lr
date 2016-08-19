@@ -7,7 +7,7 @@ body:
 
 <a name="button_hide"></a>
 ### Verstecken Button 
-<div class="buttoncircle"><img  src="ic_clear_black_24dp.png"></img></div> 
+<div class="buttoncircle"><img  src="/buttons/ic_clear_black_24dp.png"></img></div> 
 
 Berühre diesen Button um Oversec zeitweise zu verstecken.
 
@@ -24,7 +24,7 @@ Doppelt-Berühren bring dich zur [App Konfiguration](/setup/per-app-config/) wo 
 
 <a name="button_encrypt"></a>
 ### Verschlüsseln Button
-<div class="buttoncircle"><img src="ic_lock_black_24dp.png"></img></div>
+<div class="buttoncircle"><img src="/buttons/ic_lock_black_24dp.png"></img></div>
 
 <a name="button_encrypt_initial"></a>
 Berühre diesen Button um den gerade eingegebenen Text zu verschlüsseln. Nachdem der Text verschlüsselt wurde, verschwindet dieser Button automatisch. Wenn du also diesen Button direkt über den "Senden" Button der darunterliegenden App positionierst, stellst Du damit sicher dass nicht versehentlich unverschlüsselter Text versendet wird. 
@@ -45,14 +45,14 @@ Wenn der Verschlüsseln-Button also direkt über dem "Senden" Button der darunte
 ### Entschlüsseln-/Löschen Button
 Das Icon auf diesem Button ändert sich, je nachdem welcher Text im Eingabefeld steht:
 
-<div class="buttoncircle"><img src="ic_lock_open_black_24dp.png"></img></div>
+<div class="buttoncircle"><img src="/buttons/ic_lock_open_black_24dp.png"></img></div>
 
 Es befindet sich verschlüsselter Text im Eingabefeld. Berühre diesen Button um den Text zu entschlüsseln.
 
 *Hinweis: Diese Funktion ist aus Sicherheitsgründen nicht Android Kitkat verfügbar!*
 
 
-<div class="buttoncircle"><img  src="ic_backspace_black_24dp.png"></img></div>
+<div class="buttoncircle"><img  src="/buttons/ic_backspace_black_24dp.png"></img></div>
 
 Es befindet sich unverschlüsselter Text im Eingabefeld. Berühre diesen Button um den Text komplett zu entfernen.
 
@@ -64,7 +64,7 @@ Es befindet sich unverschlüsselter Text im Eingabefeld. Berühre diesen Button 
 ### Info Button
 
 
-<div class="buttoncircle"><img src="ic_info_outline_black_24dp.png"></img></div>
+<div class="buttoncircle"><img src="/buttons/ic_info_outline_black_24dp.png"></img></div>
 
 Berühre diesen Button um in den Info-Modus zu gelangen. 
 
@@ -72,7 +72,7 @@ Im Info-Modus wird neben jedem verschlüsseltem Text, der auf dem Bildschirm gef
 Berühre einen kleinen Info-Button um detaillierte Informationen zur Verschlüsselung anzuzeigen.
 
 
-<div class="buttoncircle"><img  src="ic_not_interested_black_24dp.png"></img></div>
+<div class="buttoncircle"><img  src="/buttons/ic_not_interested_black_24dp.png"></img></div>
 
 Wenn im Info-Modus, wird der Button wie oben angezeigt. Berühre ihn um dem Info Modus wieder zu verlassen. 
 
@@ -85,7 +85,7 @@ Wenn im Info-Modus, wird der Button wie oben angezeigt. Berühre ihn um dem Info
 
 <a name="button_config"></a>
 ### Konfiguration Button
-<div class="buttoncircle"><img src="ic_settings_black_24dp.png"></img></div>
+<div class="buttoncircle"><img src="/buttons/ic_settings_black_24dp.png"></img></div>
 
 Berühre diesen Button um die [App Konfigurations Seite](/setup/per-app-config/) zu Öffnen, wo du Oversec für die gerade aktive App konfigurieren kannst.
 
@@ -96,7 +96,7 @@ Berühre diesen Button um die [App Konfigurations Seite](/setup/per-app-config/)
 
 <a name="button_camera"></a>
 ### Kamera Button
-<div class="buttoncircle"><img src="ic_camera_alt_black_24dp.png"></img></div>
+<div class="buttoncircle"><img src="/buttons/ic_camera_alt_black_24dp.png"></img></div>
 
 Mit diesem Button kannst du ein verschlüsseltes Foto aufnehmen.
 

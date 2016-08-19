@@ -1,10 +1,10 @@
 _model: page
 ---
-title: Allgemeine Einstellungen
+title: General Settings
 ---
 body:
 
-### Screenshot erlauben
-Stndardmässig verhindert Oversec, dass Screenshots gemacht werden während potentiell private (entschlüsselte) Texte und Schlüssel angezeigt werden. Entweder funktioneren die Screenshots überhaupt nicht, oder sie sind komplett schwarz.
+####Allow Screenshots
+By default, Oversec prevents the system from taking screenshots while showing sensitive information. Depending on the way the screenshots are made, taking screenshots either fails or produces a blank or black image.
 
-Du kannst diesen Schutz (zeitweise) ausschalten, wenn du z.B. Screenshots erstellen möchtest, um über Oversec zu berichten. Bitte vergesse nicht, die Funktion danach wieder einzuschalten.
+You can disable this behavior temporarily if you want to take screenshots to show or tell about Oversec, but we strongly recommend to keep this setting OFF! 

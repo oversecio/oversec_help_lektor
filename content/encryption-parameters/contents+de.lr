@@ -1,7 +1,56 @@
-sort: E
+title: Verschlüsselungs Einstellungen
 ---
-title: Verschlüsselungseinstellungen
+body:
+
+<a name="simple"><br/></a>
+# Einfache Verschlüsselung mit Passwort
+Verschlüsselung mit gemeinsamen Passwort.
+
+Einfach mit einem gemeinsamen Passwort verschlüsseln. Dies ist gut geeignet für Anfänger, bietet aber nur geringe Sicherheit.
+
+###Passwort hinzufügen
+Zum verschlüsseln benötigtst Du mindestens ein Passwort, füge es hinzu indem du "Passwort hinzufügen" berührst. Oversec merkt sich das Passwort solange wie Du es bei der Passwort-Eingabe festlegst.
+
+Wenn ein Passwort abgelaufen ist, ist komplett weg. Du musst es dann neu eingeben.
+
+###Passwort auswählen
+Um mit einem oder mehreren Passwörtern zu verschlüsseln, berühre die Box neben einem Passwort, um es zu markieren.
+Oversec verschlüsselt mit allen markierten Passwörtern - jeder, der mindestens eines der markierten Passwörter kennt, kann die Nachricht entschlüsseln.
+
+
+<a name="sym"><br/></a>
+#Symmetrisch
+Verschlüsselung mit gemeinsamen symmetrischen Schlüsseln.
+
+Verschlüsselung mit gemeinsamen Schlüssel. Der Schlüssel muss vorher mit der anderen Person ausgetauscht werden - am einfachsten indem du die Person triffst und den Schlüssel [mittels Kamera und QR-Code scannst](/encryption-parameters/symmetric-keys).
+
+###Schlüssel hinzufügen
+Benutze die Oversec App um [symmetrische Schlüssel zu verwalten](/encryption-parameters/symmetric-keys/key-create).
+
+###Schlüssel auswählen
+Um mit einem oder mehreren Schlüsseln zu verschlüsseln, berühre die Box neben einem Schlüssel, um ihn zu markieren.
+Oversec verschlüsselt mit allen markierten Schlüsseln - jeder, der mindestens eines der markierten Schlüssel hat, kann die Nachricht entschlüsseln.
+
+<a name="pgp"><br/></a>
+##PGP
+Verschlüsselung mit öffentlichen PGP Schlüsseln. Du benötigst die [OpenKeychain App](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain) um mit PGP zu verschlüsseln und deine PGP Schlüssel zu verwalten.
+
+<br/>
+####Warnung: PGP verschlüsselte Nachrichten verbrauchen 3 Kilobyte oder mehr pro Nachricht. Bitte berücksichtige dies wenn Du wenig Datenvolumen haben, und benutze u.U. stattdessen symmetrische Verschlüsselung.
+
+###Eigener Schlüssel
+Wähle hier deinen eigenen, privaten PGP Schlüssel aus. Falls du das nicht tust, wirst du die verschlüsselten Nachrichten nicht mehr selbst entschlüsseln können.
+
+###Nachricht signieren
+Wähle dies aus um Nachrichten auch zu signieren.
+
+###Empfänger
+Berühre den (+) Button um Empfänger hinzuzufügen. Die OpenKeychain App wird dann geöffnet und du kannst die öffentlichen Schlüssel von einem oder mehreren Empfängern auswählen.
+Oversec verschlüsselt mit den öffentlichen Schlüsseln aller Empfänger - jeder, der einen passenden privaten Schlüssel hat, kann die Nachricht entschlüsseln.
 
 
 ---
-sortstring: d
+sortstring:
+
+d
+

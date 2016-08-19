@@ -4,7 +4,7 @@ title: App-Konfiguration
 ---
 body:
 
-<div class="buttoncircle"><img src="ic_settings_black_24dp.png"/></div>
+<div class="buttoncircle"><img src="/setup/per-app-config/ic_settings_black_24dp.png"/></div>
 Tipp: Die Konfigurations-Seite kanna uauch durch Berühren des [Oversec Konfigurations Buttons](/buttons#button_config) innerhalb der App geöffnet werden. 
 
 <a name="main"></a>
