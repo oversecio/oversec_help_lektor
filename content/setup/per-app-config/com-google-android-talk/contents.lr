@@ -8,5 +8,8 @@ body:
 <a name="23142346"><br/></a>
 ### Version 8.1.x
 
-In order have Oversec correctly process what's show in in the Hangouts app, you need to enable the option "Include not important views" in the "Lab" tab of the Hangouts-specific settings in Oversec.
+In order have Oversec correctly process what's shown in in the Hangouts app, you need to enable the option "Include not important views" in the "Lab" tab of the Hangouts-specific settings in Oversec.
+
+*Please do not attempt to use PGP Encryption with this app. PGP Encrypted messages are BIG and will need dozens of SMS to transfer.
+Moreover, The Hangouts app is known to crash occasionally when PGP encrypted messages with invisible encoding  are fed into its input field.* 
 

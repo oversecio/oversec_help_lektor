@@ -15,7 +15,7 @@
      <script>
 {% if this.redirect %}
       function redirectpage(dest) {
-      alert("Redirectpage: "+dest);
+      //alert("Redirectpage: "+dest);
 
         if (window.location.pathname!=dest) {
           if (window.location.replace)
@@ -54,7 +54,7 @@
       }  
 
      function resolve(lang) {
-      alert("Resolve: "+lang);
+      //alert("Resolve: "+lang);
           var hash =window.location.hash.substring(1);
           if (hash.startsWith('alias_')) {
             resolveAlias(lang,hash.substring(6));
@@ -64,7 +64,7 @@
           }
           else {
               //alert("window.location.: "+window.location.pathname);
-                redirectpage(lang+'/index.html');
+                redirectpage((lang.length>0?"/":"")+lang+'/index.html');
           }
      }
 
@@ -80,21 +80,33 @@
     var languageinfo=navigator.language? navigator.language : navigator.userLanguage
     var gotodefault=1
     
-    /*
-          alert("languageinfo: "+languageinfo);
+    
+    //alert("languageinfo: "+languageinfo.substr(0,2));
 
-
+    var pathMatch = 0
     for (i=0;i<langcodes.length-1;i++){
-      if (languageinfo.substr(0,2)==langcodes[i]) {
+      if (window.location.pathname.startsWith("/"+langredirects[i]+"/")) {
+        // alert("Hoorikaj" +i+ "=="+langcodes[i]+" // "+langredirects[i])
         resolve(langredirects[i])
         gotodefault=0
+        pathMatch=1
         break
+      }
+    }
+    if (!pathMatch) {
+      for (i=0;i<langcodes.length-1;i++){
+        if (languageinfo.substr(0,2)==langcodes[i]) {
+          //alert("hooray" +i+ "=="+langcodes[i]+" // "+langredirects[i])
+          resolve(langredirects[i])
+          gotodefault=0
+          break
+        }
       }
     }
 
     if (gotodefault)
       resolve(langredirects[langcodes.length-1])
-    */
+    
 
  {% endif %}
 

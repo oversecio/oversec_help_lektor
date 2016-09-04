@@ -1,0 +1,15 @@
+_model: page
+---
+title: Google Messenger (SMS/MMS)
+---
+body:
+
+#Messenger
+<a name="19035148"><br/></a>
+
+
+In order have Oversec correctly process what's shown in in the Messenger app, you need to enable the option "Include not important views" in the "Lab" tab of the Messenger-specific settings in Oversec.
+
+*Please do not attempt to use PGP Encryption with this app. PGP Encryṕted messages are BIG and will need dozens of SMS to transfer.
+Moreover, The Messenger app is known to crash occasionally when PGP encrypted messages with invisible encoding  are fed into its input field.* 
+
