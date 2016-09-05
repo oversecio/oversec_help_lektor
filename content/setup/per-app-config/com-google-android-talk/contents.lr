@@ -12,4 +12,5 @@ In order have Oversec correctly process what's shown in in the Hangouts app, you
 
 *Please do not attempt to use PGP Encryption with this app. PGP Encrypted messages are BIG and will need dozens of SMS to transfer.
 Moreover, The Hangouts app is known to crash occasionally when PGP encrypted messages with invisible encoding  are fed into its input field.* 
+[More Info](/encoding/#settextfailed)
 

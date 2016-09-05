@@ -19,6 +19,10 @@ Der Rahmen wird _grün_, wenn ausreichend Tarntext vorhanden ist.
 Wenn Du den Tarntext manuell eingibst oder änderst, kann es passieren, dass du aus Versehen Teile des unsichtbaren verschlüsselten Texts löschst.
 In diesem Fall zeigt Oversec eine Fehlermeldung an und du musst leider von Vorne anfangen.
 
+<a name="settextfailed"></a>
+Einige Apps haben Probleme mit der unsichrbaren Kodierung und stürzen ab oder reagieren nicht mehr, wenn Oversec versucht den kodierten Text in die App zu schreiben.
+In diesem Fall bleibt leider nichts anderes übrig, als eine andere Kodierung'zu verwenden, die keine unsichtbaren Zeichen enthält (siehe unten).
+
 ###BASE64-Encoding
 Kodiert die verschlüsselte Nachricht mit sichtbaren ASCII-Zeichen. Diese Kodierung funktioniert garantiert mit allen Apps.
 Diese Kodierung ist hauptsächlich für den Versand von [symmetrisch verschlüsselten](/encryption-parameters/#sym) SMS Text Nachrichten gedacht.
