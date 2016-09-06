@@ -4,7 +4,7 @@ title: GMail
 ---
 body:
 
-#GMail
+Invisible encoding is not supported in emails, please use Base64 or Ascii-Armored PGP instead.
 
 On Android 4.x, it is not possible to display/decrypt encrypted mails. However, you can still use the GMail app to compose and send encrypted mails. 
 

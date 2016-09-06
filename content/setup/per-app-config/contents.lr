@@ -30,6 +30,9 @@ Hint: This buttons also doubles as [Panic Button](/panic), so it's recommended t
 ####Decrypt/Clear Button
 Shows the [Decrypt Button] (/buttons#button_decrypt) that allows to decrypt or clear the current input field.
 
+####Compose Button
+Shows the [Compose Button] (/buttons#button_compose) that allows you do encrypt and paste text via the clipboard
+
 ####Camera Button
 Shows the [Camera Button] (/buttons#button_camera) that allows you do [directly take and send encrypted photos](/encrypting-images)
 
