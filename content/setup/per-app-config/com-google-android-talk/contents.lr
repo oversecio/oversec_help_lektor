@@ -4,10 +4,6 @@ title: Hangouts
 ---
 body:
 
-#Hangouts
-<a name="23142346"><br/></a>
-### Version 8.1.x
-
 In order have Oversec correctly process what's shown in in the Hangouts app, you need to enable the option "Include not important views" in the "Lab" tab of the Hangouts-specific settings in Oversec.
 
 *Please do not attempt to use PGP Encryption with this app. PGP Encrypted messages are BIG and will need dozens of SMS to transfer.

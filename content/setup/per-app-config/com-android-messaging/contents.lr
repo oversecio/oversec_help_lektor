@@ -4,10 +4,6 @@ title: Messaging (AOSP) (SMS/MMS)
 ---
 body:
 
-#Messaging (Google / AOSP)
-<a name="19035148"><br/></a>
-
-
 In order have Oversec correctly process what's shown in in the Messaging app, you need to enable the option "Include not important views" in the "Lab" tab of the Messaging-specific settings in Oversec.
 
 *Please do not attempt to use PGP Encryption with this app. PGP Encrypted messages are BIG and will need dozens of SMS to transfer.
