@@ -4,13 +4,15 @@ title: Google Messenger (SMS/MMS)
 ---
 body:
 
-#Messenger
-<a name="19035148"><br/></a>
-
-
 In order have Oversec correctly process what's shown in in the Messenger app, you need to enable the option "Include not important views" in the "Lab" tab of the Messenger-specific settings in Oversec.
 
-*Please do not attempt to use PGP Encryption with this app. PGP Encryṕted messages are BIG and will need dozens of SMS to transfer.
-Moreover, The Messenger app is known to crash occasionally when PGP encrypted messages with invisible encoding  are fed into its input field.* 
+This app has a limit of max. 2000 characters in the input field. 
+For that reason, some encryption / encoding combinations may not work as they will produce (invisible) text that is much longer.
+
+If you're having problems, please try one of the follwing:
+* use less recipients
+* use a visible encoding like Base64 or ascii-armoured
+* use symmetric encryption instead of PGP encryption
+  
 [More Info](/encoding/#settextfailed)
 

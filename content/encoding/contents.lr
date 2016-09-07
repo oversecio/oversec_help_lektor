@@ -18,8 +18,8 @@ The border color will turn red if the decoy text is too short and there will pro
 When editing the decoy text, it may happen that you accidentally delete parts of the invisible encrypted text. If this happens, Oversec will show an error  and you will have to start over! (There is no way to recover the plain text!)
 
 <a name="settextfailed"></a>
-Some Apps exhibit problems with this invisible encoding and crash or freeze when Oversec tries to write back the encoded text to the app.
-There's unfortunately nothing we can do about this, other than that you need to use a different encoding that does not contain invisible characters (see below).
+Some Apps limit the number of characters that can be written back into an input field and crash or freeze when Oversec tries to write back the encoded text to the app.
+There's unfortunately nothing we can do about this, other than that you need to use a different encryption method or encoding:
 
 
 ###BASE64-Encoding
@@ -29,6 +29,10 @@ This is mainly intended for use with [symmetric encryption](/encryption-paramete
 
 ###Ascii-Armoured PGP
 This is only available for [PGP encoded](/encryption-parameters/#pgp) messages and encodes them as a "ascii armoured" string.
+
+###Symmetric Encoding vs. PGP Encoding
+PGP encoding produces much more data than symmetric encryption. Please use symmetric encoding if data length is a concern!
+
 
 ---
 sortstring: d
