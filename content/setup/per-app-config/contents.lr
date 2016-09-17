@@ -104,6 +104,11 @@ Performs more frequent and deeper screen reading. Produces a smoother UX at the 
 ####Scrape All Views
 Include views that are deemed as "Not Important". This is needed for a few apps only and it slows down Oversec and uses more battery!
 
+<a name="spreadinvisibleencoding"></a>
+####Spread Invisible Encoding
+Spread invisible characters within decoy text, rather than putting all of them at the beginning. This is needed for some apps like e.g. Instagram.
+As a consequence though, "manual padding" can not be used.
+
 ---
 sortstring: m
 ---
