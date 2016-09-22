@@ -4,6 +4,6 @@ title: Allo
 ---
 body:
 
-In order to have Oversec correctly process what's shown in the Allo app, you need to enable the option "Scrape All Views" in the "Lab" tab of the Messenger-specific settings in Oversec.
+In order to have Oversec correctly process what's shown in the Allo app, you need to enable the option "Scrape All Views" in the "Lab" tab of the Allo-specific settings in Oversec.
 
 
