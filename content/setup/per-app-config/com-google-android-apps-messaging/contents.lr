@@ -4,7 +4,7 @@ title: Google Messenger (SMS/MMS)
 ---
 body:
 
-In order have Oversec correctly process what's shown in in the Messenger app, you need to enable the option "Include not important views" in the "Lab" tab of the Messenger-specific settings in Oversec.
+In order to have Oversec correctly process what's shown in in the Messenger app, you need to enable the option "Scrape All Views" in the "Lab" tab of the Messenger-specific settings in Oversec.
 
 This app has a limit of max. 2000 characters in the input field. 
 For that reason, some encryption / encoding combinations may not work as they will produce (invisible) text that is much longer.
