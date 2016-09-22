@@ -1,0 +1,9 @@
+_model: page
+---
+title: Wire
+---
+body:
+
+
+The wire app has serious bug in that it crashs the internal accessibility API in Android!
+There's nothing we can do about this, the guys at Wire need to fix this first!
