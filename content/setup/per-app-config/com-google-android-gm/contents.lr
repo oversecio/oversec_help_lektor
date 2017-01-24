@@ -4,6 +4,9 @@ title: GMail
 ---
 body:
 
+Due to changes in the Gmail app, Oversec can not longer directly enter text into the body of an email. 
+Please use the [compose button](/buttons/#button_compose) to compose an encrypted email, then paste the encrypted email into the Gmail app.
+
 Invisible encoding is not supported in emails, please use Base64 or Ascii-Armored PGP instead.
 
 On Android 4.x, it is not possible to display/decrypt encrypted mails. However, you can still use the GMail app to compose and send encrypted mails. 
