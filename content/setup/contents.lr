@@ -37,6 +37,13 @@ Now Oversec should be "on". Tap on "BACK"
 <img src="acs_settings_step_5_L.png"></img>
 <br></br>
 
+
+<a name="main_help_accessibilitysettingsnotresolvable"></a>
+On some phones with a custom Android version, the settings page that let's you configure Accessibility Services is not available or not in the expected place.
+
+Please manually try to locate the "Accessibility" page in your phone's Settings and then <a href="#main_help_acsconfig">enable Oversec as an Accessibility Service.</a>
+
+
 ### <a name="main_apps"></a>Configure Apps for Oversec
 
 This is the list of all apps you currently have installed.

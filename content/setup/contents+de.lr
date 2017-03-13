@@ -37,6 +37,13 @@ Oversec sollte nun "An" sein. Drücke nochmals die "zurück" Taste.
 <img src="/setup/acs_settings_step_5_L.png"></img>
 <br></br>
 
+<a name="main_help_accessibilitysettingsnotresolvable"></a>
+Auf manchen Android Handys, mit einer angepassten Android Version, ist Einstellungs-Seite, auf der die "Bedienungshilfe" konfiguriert werden kann, nicht verfügbar oder an einem anderen Platz - und kann deshalb nicht automatisch angezeigt werden.
+
+Bitte versuche die Seite "Bedienungshilfe" in den Android Einstellungen selbst zu finden, und <a href="#main_help_acsconfig">aktiviere dort Oversec als Bedienungshilfe.</a>
+
+
+
 ### <a name="main_apps"></a>Apps für Oversec konfigurieren
 
 Dies ist die Liste aller Apps, die auf deinem Handy installiert sind.
