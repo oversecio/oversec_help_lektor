@@ -1,0 +1,37 @@
+_model: page
+---
+title: Cifrado de imágenes
+---
+body:
+
+###Cifrar una imagen existente
+Para cifrar y enviar una imagen existente:
+* En tu aplicación Fotos o Galería, abre la imagen
+* Toque en "Compartir"
+* Toque en "Encriptar imagen"
+* A continuación, puntee en la aplicación a la que desea enviar la imagen cifrada con
+* Introduzca / ajuste [parámetros de cifrado](/encryption-parameters)
+* Toque el botón de [cifrar] (/buttons#button_encrypt)
+* Seleccione chat / contacto / destinatario en la aplicación remitente.
+
+###Tomar una foto cifrada
+¡Oversec le permite tomar una foto y enviarla o almacenarla como foto encriptada, sin nunca guardar la foto normal en su dispositivo!
+
+Para tomar una foto cifrada:
+* Active el botón [Cámara](/buttons#button_camera) para la aplicación
+* Toque en el botón [Cámara](/buttons#button_camera)
+* Tome y confirme la foto
+* Introduzca / ajuste [parámetros de cifrado](/encryption-parameters)
+* Toque el botón de [cifrar] (/buttons#button_encrypt)
+* Seleccione chat / contacto / destinatario en la aplicación subyacente.
+
+
+### Descifrar una imagen
+Para descifrar y mostrar el contenido de una imagen cifrada:
+* Abrir / ver la imagen cifrada
+* Toque en "Compartir"
+* Toque en "Descifrar imagen"
+* Introducir clave de contraseña / desbloqueo
+
+---
+sortstring: i

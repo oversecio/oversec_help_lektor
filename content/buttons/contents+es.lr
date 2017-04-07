@@ -1,0 +1,129 @@
+_model: page
+---
+title: Buttons
+---
+body:
+
+
+<a name="button_hide"></a>
+### Botón de ocultar 
+<div class="buttoncircle"><img  src="ic_clear_black_24dp.png"></img></div> 
+
+Toque este botón para ocultar temporalmente toda la superposición Oversec.
+
+Toque de nuevo en la misma posición (mientras que este y todos los demás botones están ocultos) para ocultar!
+
+Este botón también funciona como un botón de pánico: Toque largo para entrar en [Modo de pánico](/panic) 
+
+Toque doble en este botón, aparecerá la página de configuración [por configuración de la aplicación] (/setup/per-app-config/) donde podrá configurar varios aspectos de cómo funciona Oversec junto con la aplicación actual.
+
+
+
+*Nota: Este botón se puede arrastrar y colocar en cualquier lugar de la pantalla.*
+
+
+
+<a name="button_encrypt"></a>
+### Botón de cifrar 
+<div class="buttoncircle"><img src="ic_lock_black_24dp.png"></img></div>
+
+<a name="button_encrypt_initial"></a>
+Toque este botón para cifrar el texto introducido. Después de que el texto haya sido cifrado, este botón desaparecerá automáticamente. Por lo tanto, si coloca este botón sobre el botón de "enviar" o "guardar" de la aplicación subyacente, puede asegurarse de que no envía o no guarda texto en forma accidental.
+
+<a name="button_encrypt_encryptionparamsremembered"></a>
+Si aún no has cifrado nada en esta aplicación, tocando este botón aparecerá una pantalla para introducir o modificar los parámetros de cifrado. La próxima vez que toque este botón, esos parámetros se utilizarán y el cifrado ocurrirá instantáneamente.
+Si todavía desea cambiar los parámetros de cifrado, toque prolongadamente en este botón para que aparezca la pantalla de cifrado-params con fuerza.
+
+*Sugerencia: Toque doble este botón, se ocultará durante un breve período de tiempo, de modo que se puedan aprovechar los botones de la aplicación subyacente.
+Por lo tanto, si el Botón de cifrar está situado justo encima del botón de envío de la aplicación subyacente, puede _triple_ pulsar en esta posición para enviar un mensaje _sin cifrar_!*
+
+*Nota: Este botón se puede arrastrar y colocar en cualquier lugar de la pantalla.*
+
+
+<a name="button_compose"></a>
+### Botón de componer
+<div class="buttoncircle"><img src="ic_create_black_24dp.png"></img></div>
+
+
+Este botón le permite introducir texto en una pantalla aparte y luego colocar el texto cifrado en el portapapeles.
+A continuación, puede pegar el texto del portapapeles en campos de entrada que no son accesibles por Oversec.
+(Ejemplo: Cuerpo de un mensaje de correo electrónico en "Inbox by Gmail")
+Toque este botón para abrir la pantalla de entrada.
+
+<a name="compose_encrypt_button"></a>
+Después de haber ingresado el texto, toque el botón en esta pantalla. El texto introducido se cifra y se coloca en el portapapeles,
+
+<a name="paste_clipboard"></a>
+Ahora toque largo en un campo de entrada y luego seleccione "PEGAR" para pegar el texto cifrado del portapapeles en el campo de entrada.
+
+*Nota: Este botón se puede arrastrar y colocar en cualquier lugar de la pantalla.*
+
+*Nota: Este botón no está habilitado de forma predeterminada. Pulse el botón de configuración para abrir la página de configuración [por configuración de aplicación] (/ setup / per-app-config /) donde puede activar el botón componer.*
+
+
+
+<a name="button_decrypt"></a>
+### Botón de encriptación / descifrar
+Este botón cambia su icono y función dependiendo del texto en el campo de entrada:
+
+<div class="buttoncircle"><img src="ic_lock_open_black_24dp.png"></img></div>
+
+Hay texto cifrado en el campo de entrada. Toque este botón para desencriptarlo y volver a colocar el texto sin formato en el campo de entrada.
+
+* Nota: Esta funcionalidad no está disponible en Android Kitkat por razones de seguridad! *
+
+
+<div class="buttoncircle"><img  src="ic_backspace_black_24dp.png"></img></div>
+
+Hay texto en el campo de entrada. Al pulsar este botón se borra todo el texto.
+
+
+*Nota: Este botón se puede arrastrar y colocar alrededor del campo de entrada.*
+
+
+<a name="button_info"></a>
+### >Botón de información
+
+
+<div class="buttoncircle"><img src="ic_info_outline_black_24dp.png"></img></div>
+
+Toque este botón para ingresar al modo de información.
+
+Mientras esté en modo info, habrá una versión más pequeña de este botón junto a cada texto cifrado que se encuentre en la pantalla.
+Toque en el pequeño botón de información para mostrar información de cifrado detallada acerca de este texto.
+
+
+
+<div class="buttoncircle"><img  src="ic_not_interested_black_24dp.png"></img></div>
+
+Mientras está en modo de información, este botón muestra lo anterior. Toque para salir del modo de información.
+
+*Nota: Este botón se puede arrastrar y colocar en cualquier lugar de la pantalla.*
+
+* Nota: Este botón no está habilitado de forma predeterminada. Pulse el botón de configuración para abrir la página de configuración [por configuración de aplicación] (/setup/per-app-config/) donde puede activar el botón info.*
+
+* Nota: al pulsar prolongadamente el botón de información se abre la página de configuración [por configuración de la aplicación] (/setup /per-app-config/) (véase más adelante). Por lo tanto, puede habilitar el botón de información y deshabilitar el botón de configuración en la página de configuración [por configuración de aplicación] (/setup/per-app-config/) y seguir teniendo acceso a la configuración de la aplicación pulsando prolongadamente el botón de información.*
+
+
+<a name="button_config"></a>
+### Botón de configuración
+<div class="buttoncircle"><img src="ic_settings_black_24dp.png"></img></div>
+
+Al pulsar este botón, se abre la página de configuración [por configuración de la aplicación] (/setup/per-app-config/) donde se pueden configurar varios aspectos de cómo funciona Oversec junto con la aplicación actual.
+
+*Nota: Este botón se puede arrastrar y colocar en cualquier lugar de la pantalla.*
+
+
+
+<a name="button_camera"></a>
+### Botón de cámara
+<div class="buttoncircle"><img src="ic_camera_alt_black_24dp.png"></img></div>
+
+Al pulsar este botón puede tomar y enviar una foto cifrada.
+
+Este botón sólo está disponible para aplicaciones que admiten el envío de imágenes.
+Puede elegir si desea ver u ocultar este botón en la página de configuración [por configuración de la aplicación] (/setup/per-app-config/)
+
+*Nota: Este botón se puede arrastrar y colocar en cualquier lugar de la pantalla.*
+---
+sortstring: a

@@ -1,0 +1,93 @@
+_model: page
+---
+title:
+
+Claves simétricas
+
+
+---
+sortstring: m
+---
+body:
+
+#### Nota: No necesita ninguna clave simétrica si utiliza el cifrado "simple", basado en contraseña o el cifrado PGP.
+
+##Creación de una clave
+Toque en (+) para crear una nueva clave. Seleccione uno de los tipos de llave disponibles:
+
+<a name="random"></a>
+###Clave aleatoria
+Crea una clave secreta aleatoria de 256 bits.
+
+Es imposible romper tal clave, pero tomará un cierto esfuerzo para compartirlo con seguridad con su partido alejado.
+
+Espere unos segundos mientras Oversec crea la clave, luego ingrese un Alias o Nombre para la clave y finalmente toque el botón "Guardar".
+
+<a name="pbkdf"></a>
+###Clave basada en contraseña
+Crea una clave basada en una contraseña.
+
+Esto es menos seguro, pero sólo es necesario acordar una frase de contraseña, por lo que la otra parte puede generar una clave correspondiente.
+
+Tenga en cuenta que esto es aún más seguro que usar el modo de encriptación basado en "passphrase" simple, ya que Oversec requerirá mucha energía computacional para derivar una clave simétrica de 256 bits de la frase de contraseña.
+
+Introduce una contraseña segura y larga o puntea en "Sugerir contraseña segura" para que Oversec genere una contraseña segura para ti.
+A continuación, repita el tipo de contraseña para asegurarse de que se han acordado. A continuación, pulse "continuar"
+
+Espere unos segundos mientras Oversec calcula una clave basada en la frase de contraseña, luego ingrese un alias o nombre para la clave y finalmente toque el botón "Guardar".
+
+<a name="scan"></a>
+##Compartir / Importar una clave
+La mejor manera de importar una clave es escanearla directamente desde el otro teléfono a través de código QR:
+
+####Alice
+* Abrir la clave que desea compartir
+* Toque en "revelar" para mostrar el código QR completo
+* (Puede que tenga que ingresar la clave de contraseña para hacer esto)
+
+####Bob
+* Toque en (+) para crear una nueva clave, luego seleccione "código QR"
+* Escanear el código QR desde el teléfono de Alice.
+* Introduzca un alias para la clave y, finalmente, toque el botón "Guardar".
+
+
+### Si ha recibido una imagen del código QR de otra manera:
+* Abrir la imagen
+* Toque en "Compartir"
+* Seleccionar (Oversec) "Importación de clave"
+* Introduzca la contraseña que protege la clave
+* Introduzca un alias para la clave y, finalmente, toque el botón "Guardar".
+* *Asegúrese de verificar y confirmar esta tecla* (ver abajo)
+
+
+##Compartiendo 
+Para compartir una clave en un canal inseguro (por ejemplo, correo electrónico)
+
+* Abrir los detalles clave
+* Toque en "Menú" y seleccione "Enviar cifrado"
+* Es posible que primero deba desbloquear la tecla
+* Introduzca y repita una contraseña de uso compartido para proteger la clave.
+* La persona que recibió esta clave necesitará saber esta contraseña para importar la clave.
+* Seleccione la aplicación con la que desea compartir la clave.
+
+##Apoyo
+Para realizar copias de seguridad de sus claves, p. Imprimiendo el papel en un pedazo de papel o almacenándolos en medios extraíbles:
+
+* Abrir los detalles clave
+* Toque en "Menú" y seleccione "Ver / imprimir cifrado"
+* Es posible que primero deba desbloquear la tecla
+* Introduzca y repita una contraseña de uso compartido para proteger la clave.
+* ¡Tendrá que recordar esta contraseña para restaurar / importar esas claves más adelante!
+* Seleccione la aplicación para ver / imprimir / guardar la clave con.
+
+
+<a name="details"></a>
+
+
+## Confirmación de claves
+Al importar claves de otra fuente, se marcarán como "no confirmadas".
+Esto es porque las llaves se pueden alterar posiblemente antes de que usted consiga importarlos.
+
+Usted necesita ponerse en contacto con la persona que recibió la clave de a través de un canal seguro (phonecall?) Y comparar las huellas dactilares clave.
+Para iniciar este proceso, abra la tecla y toque el botón (✓)
+

@@ -1,0 +1,15 @@
+_model: page_index
+---
+title: Bienvenido
+---
+body:
+
+**Antes de poder empezar a utilizar Oversec, debe habilitarlo en la configuración de Android.**
+[Pulse aquí para más información](/setup)
+
+Por favor, mire a su alrededor en este documento de ayuda utilizando el mapa del sitio o el menú de navegación &#9776;
+
+---
+redirect: yes
+---
+_template: page_index.html

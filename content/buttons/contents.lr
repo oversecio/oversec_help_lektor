@@ -9,9 +9,9 @@ body:
 ### Hide-Button 
 <div class="buttoncircle"><img  src="ic_clear_black_24dp.png"></img></div> 
 
-Tap this button to temporarily hide all the Oversec overlay.
+Tap this button to temporarily hide all the Oversec overlays.
 
-Tapping on the same position again (while this and all other buttons are hidden) to un-hide!
+Tap again at the same position  (while this and all other buttons are hidden) to un-hide!
 
 This button also functions as a panic button: Long-tap it to enter [Panic Mode](/panic) 
 
@@ -57,7 +57,7 @@ Now long-tap on an input field and then select "PASTE" to paste the encrypted te
 
 *Note: This button can be dragged and placed anywhere on the screen.*
 
-*Note: This button is not enabled by default. Click the config button to open the [per-app configuration page](/setup/per-app-config/) where you can enable the info button.
+*Note: This button is not enabled by default. Click the config button to open the [per-app configuration page](/setup/per-app-config/) where you can enable the compose button.*
 
 
 <a name="button_decrypt"></a>
@@ -98,7 +98,7 @@ While in info-mode, this button shows like above. Tap it to leave info mode.
 
 *Note: This button can be dragged and placed anywhere on the screen.*
 
-*Note: This button is not enabled by default. Click the config button to open the [per-app configuration page](/setup/per-app-config/) where you can enable the info button.
+*Note: This button is not enabled by default. Click the config button to open the [per-app configuration page](/setup/per-app-config/) where you can enable the info button.*
 
 *Note: Long-tapping the Info-Button brings up the [per-app configuration page](/setup/per-app-config/) (see below). You can thus enable the info button and disable the config button in the [per-app configuration page](/setup/per-app-config/) and still have access to the app config by long-tapping the info button.
 
@@ -117,7 +117,7 @@ Tapping this button brings up the [per-app configuration page](/setup/per-app-co
 ### Camera-Button
 <div class="buttoncircle"><img src="ic_camera_alt_black_24dp.png"></img></div>
 
-By tapping this button you can take and end an encrypted photo.
+By tapping this button you can take and send an encrypted photo.
 
 This button is only available for apps that support sending of images.
 You can choose if you want to see or hide this button in the  [per-app configuration page](/setup/per-app-config/)
