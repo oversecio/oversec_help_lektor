@@ -74,9 +74,9 @@
     This notice must stay intact
     */
     //Enter ISO 639-2 letter Language codes to detect (see: http://www.w3.org/WAI/ER/IG/ert/iso639.htm):
-    var langcodes=new Array("en", "de", "default")
+    var langcodes=new Array("en", "de", "es", "default")
     //Enter corresponding redirect URLs (last one is for default URL):
-    var langredirects=new Array("", "de", "")
+    var langredirects=new Array("", "de", "es", "")
     var languageinfo=navigator.language? navigator.language : navigator.userLanguage
     var gotodefault=1
     
@@ -158,6 +158,7 @@ function w3_close() {
   <div style="float: right; display: inline-block; margin-right:5px">
       <a href="{{ '.'|url(alt='de') }}"><img src="{{ '/static/flags/DE.png'|url }}"></a>
       <a href="{{ '.'|url(alt='') }}"><img src="{{ '/static/flags/GB.png'|url }}"></a>
+      <a href="{{ '.'|url(alt='es') }}"><img src="{{ '/static/flags/ES.png'|url }}"></a>
   </div>
 </header>
 
