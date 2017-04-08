@@ -1,0 +1,40 @@
+_model: page
+---
+title: Codificação
+---
+body:
+
+Oversec fornece vários métodos de codificação de uma mensagem criptografada:
+
+### Invisible (Decoy) Encoding
+This unique method encodes the encrypted text as invisible (zero width) characters at the beginning of the text.
+The text is then padded with  [decoy content](/setup/decoy) to make sure that the receiving device provides enough screen-space to render the decrypted 
+
+### Codificação Invisível (Chamariz)
+Esse método exclusivo codifica o texto criptografado como caracteres invisíveis (largura zero) no início do texto.
+O texto é então preenchido com [conteúdo de chamariz] (/setup/decoy) para se certificar de que o dispositivo de recepção fornece espaço de tela suficiente para processar o decodificado
+
+<a name="insufficientpadding"></a>
+Ao inserir ou editar o texto chamariz, uma borda é desenhada em torno do campo de entrada.
+A cor da borda ficará vermelha se o texto decoy for muito curto e provavelmente não haverá espaço suficiente na tela no dispositivo receptor para mostrar o texto descriptografado. A cor da borda ficará verde se for introduzido um texto de chamariz suficiente.
+
+<a name="corrupted"></a>
+Ao editar o texto de chamariz, pode acontecer que você exclua acidentalmente partes do texto criptografado invisível. Se isso acontecer, Oversec irá mostrar um erro e você terá que começar de novo! (Não há nenhuma maneira de recuperar o texto sem formatação!)
+
+<a name="settextfailed"></a>
+Alguns aplicativos limitam o número de caracteres que podem ser gravados novamente em um campo de entrada e falhar ou congelar quando Oversec tenta escrever de volta o texto codificado para o aplicativo.
+Há infelizmente nada que possamos fazer sobre isso, além de que você precisa usar um método de codificação diferente ou codificação:
+
+### Codificação BASE64
+Isso codifica o texto criptografado como uma série de caracteres imprimíveis, garantido para funcionar com todos os aplicativos e sistemas.
+
+Isto é destinado principalmente para uso com [criptografia simétrica](/encryption-parameters/#sym) para mensagens de texto legadas SMS.
+
+###Ascii-Armoured PGP
+Isto está disponível somente para mensagens [PGP codificadas](/encryption-parameters/#pgp) e codifica-as como uma string "ascii armoured".
+
+### Codificação Simétrica vs. Codificação PGP
+A codificação PGP produz muito mais dados do que a criptografia simétrica. Use a codificação simétrica se o comprimento dos dados for uma preocupação!
+
+---
+sortstring: d

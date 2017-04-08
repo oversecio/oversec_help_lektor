@@ -1,0 +1,36 @@
+_model: page
+---
+title: Criptografar imagens
+---
+body:
+
+### Criptografar uma imagem existente
+Para criptografar e enviar uma imagem existente:
+* Em seu aplicativo Fotos ou Galeria, abra a foto
+* Toque em "Compartilhar"
+* Toque em "Criptografar imagem"
+* Em seguida, toque no aplicativo ao qual deseja enviar a imagem criptografada
+* Enter / adjust [parâmetros de criptografia](/encryption-parameters)
+* Toque no botão [Criptografar](/buttons#button_encrypt)
+* Selecione bate-papo / contato / destinatário no aplicativo remetente.
+
+### Tomando uma foto criptografada
+Oversec permite tirar uma foto e enviá-la ou armazená-la como foto criptografada, sem nunca salvar a foto simples no seu dispositivo!
+
+Para tirar uma foto criptografada:
+* Ative o botão [Câmera](/buttons#button_camera) para o aplicativo
+* Toque no botão [Câmera](/buttons#button_camera)
+* Tome e confirme a foto
+* Enter / adjust [parâmetros de criptografia](/encryption-parameters)
+* Toque no botão [Criptografar](/buttons#button_encrypt)
+* Selecione chat / contato / destinatário no aplicativo subjacente.
+
+### Descriptografar uma imagem
+Para descriptografar e mostrar o conteúdo de uma imagem criptografada:
+* Abrir / ver a imagem criptografada
+* Toque em "Compartilhar"
+* Toque em "Descriptografar imagem"
+* Digite a senha / desbloquear a chave
+
+---
+sortstring: i

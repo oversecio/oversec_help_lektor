@@ -1,0 +1,127 @@
+_model: page
+---
+title: Botões
+---
+body:
+
+<a name="button_hide"></a>
+### Botão Ocultar
+<div class="buttoncircle"><img  src="ic_clear_black_24dp.png"></img></div> 
+
+O botão Ocultar permite ocultar temporariamente a sobreposição do Oversec.
+
+Toque neste botão para ocultar temporariamente todas as sobreposições Oversec.
+
+Toque novamente na mesma posição (enquanto este e todos os outros botões estão ocultos) para ocultar!
+
+Este botão também funciona como um botão de pânico: Toque-o longamente para entrar no [Modo pânico](/panic)
+
+
+Dê um toque duplo neste botão traz a [página de configuração por-app](/setup/per-app-config/) onde você pode configurar vários aspectos de como o Oversec funciona em conjunto com o aplicativo atual.
+
+
+*Nota: Este botão pode ser arrastado e colocado em qualquer lugar na tela.*
+
+
+
+<a name="button_encrypt"></a>
+### Botão Criptografar
+<div class="buttoncircle"><img src="ic_lock_black_24dp.png"></img></div>
+
+<a name="button_encrypt_initial"></a>
+Toque neste botão para encriptar o texto introduzido. Depois que o texto foi criptografado, este botão desaparece automaticamente. Portanto, se você colocar esse botão sobre o aplicativo subjacente "enviar" ou "salvar" botão, você pode ter certeza que você não acidentalmente enviar ou salvar texto sem formatação.
+
+<a name="button_encrypt_encryptionparamsremembered"></a>
+Se você ainda não criptografou nada neste aplicativo, tocando neste botão, aparecerá uma tela para inserir ou modificar os parâmetros de criptografia. Da próxima vez que você tocar neste botão, esses parâmetros serão utilizados ea criptografia acontecerá instantaneamente.
+Se você ainda quiser alterar os parâmetros de criptografia, toque longamente neste botão para exibir com força a tela de criptografia.
+
+* Dica: Dê um duplo toque neste botão irá escondê-lo por um curto período de tempo, para que os botões do aplicativo subjacente podem ser aproveitados.
+Portanto, se o Botão Criptografar estiver posicionado bem acima do botão de envio do aplicativo subjacente, você pode _triplo_ tocar nessa posição para enviar uma mensagem _não criptografado_!
+
+
+*Nota: Este botão pode ser arrastado e colocado em torno do campo de entrada.*
+
+
+<a name="button_compose"></a>
+### Botão Redigir
+<div class="buttoncircle"><img src="ic_create_black_24dp.png"></img></div>
+
+Este botão permite que você insira texto em uma tela separada e, em seguida, coloque o texto criptografado na área de transferência.
+Você pode então colar o texto da área de transferência em campos de entrada que, de outra forma, não são acessíveis por Oversec.
+(Exemplo: Corpo de uma mensagem de e-mail em "Inbox by Gmail")
+Toque neste botão para abrir a tela de entrada.
+
+<a name="compose_encrypt_button"></a>
+Depois de introduzir o texto, toque no botão nesta tela. O texto inserido fica criptografado e é colocado na área de transferência,
+
+<a name="paste_clipboard"></a>
+Agora toque longamente em um campo de entrada e selecione "COLAR" para colar o texto criptografado da área de transferência no campo de entrada.
+
+*Nota: Este botão pode ser arrastado e colocado em qualquer lugar na tela.*
+
+* Nota: Este botão não está habilitado por padrão. Clique no botão de configuração para abrir a [página de configuração por-app](/setup/per-app-config/) onde você pode ativar o botão de redação. *
+
+<a name="button_decrypt"></a>
+### Botão Descriptografar / Limpar
+Este botão muda seu ícone e função dependendo do texto no campo de entrada:
+
+<div class="buttoncircle"><img src="ic_lock_open_black_24dp.png"></img></div>
+
+Há texto criptografado no campo de entrada. Toque neste botão para descriptografar e colocar o texto sem formatação novamente no campo de entrada.
+
+*Nota: Esta funcionalidade não está disponível no Android Kitkat por razões de segurança!*
+
+<div class="buttoncircle"><img  src="ic_backspace_black_24dp.png"></img></div>
+
+Há algum texto no campo de entrada. Tocar neste botão limpa todo o texto.
+
+
+*Nota: Este botão pode ser arrastado e colocado em torno do campo de entrada.*
+
+
+<a name="button_info"></a>
+### Botão Informações
+
+
+<div class="buttoncircle"><img src="ic_info_outline_black_24dp.png"></img></div>
+
+Toque neste botão para entrar no modo info.
+
+Enquanto no modo info, haverá uma versão menor deste botão ao lado de cada texto criptografado encontrado na tela.
+Toque no botão info pequeno para mostrar informações detalhadas de criptografia sobre este texto.
+
+
+<div class="buttoncircle"><img  src="ic_not_interested_black_24dp.png"></img></div>
+
+Enquanto no modo de informação, este botão mostra como acima. Toque para sair do modo info.
+
+*Nota: Este botão pode ser arrastado e colocado em qualquer lugar na tela.*
+
+*Nota: Este botão não está habilitado por padrão. Clique no botão de configuração para abrir a [página de configuração por-app] (/setup/per-app-config/) onde você pode ativar o botão info.*
+
+*Note: Long-tapping the Info-Button brings up the [per-app configuration page](/setup/per-app-config/) (see below). You can thus enable the info button and disable the config button in the [per-app configuration page](/setup/per-app-config/) and still have access to the app config by long-tapping the info button.
+
+* Nota: O botão de Info abre a [página de configuração por-app](/setup/per-app-config/) (veja abaixo). Você pode, portanto, habilitar o botão info e desativar o botão de configuração na [página de configuração por-app](/setup/per-app-config/) e ainda ter acesso à configuração do app por longas tocando no botão info.
+
+<a name="button_config"></a>
+### Botão Config.
+<div class="buttoncircle"><img src="ic_settings_black_24dp.png"></img></div>
+
+Ao aceder a este botão é apresentada a [página de configuração por-app](/setup/per-app-config/) onde pode configurar vários aspectos de como o Oversec funciona em conjunto com a aplicação actual.
+
+*Nota: Este botão pode ser arrastado e colocado em qualquer lugar na tela.*
+
+
+
+<a name="button_camera"></a>
+### Botão Câmera
+<div class="buttoncircle"><img src="ic_camera_alt_black_24dp.png"></img></div>
+
+Ao tocar neste botão, você pode tirar e enviar uma foto criptografada.
+
+Este botão só está disponível para aplicativos que suportam o envio de imagens.
+Você pode escolher se deseja ver ou ocultar este botão na [página de configuração por-app](/setup/per-app-config/)
+
+*Nota: Este botão pode ser arrastado e colocado em qualquer lugar na tela.*
+---
+sortstring: a

@@ -1,0 +1,92 @@
+_model: page
+---
+title:
+
+Chaves simétricas
+
+
+---
+sortstring: m
+---
+body:
+
+#### Nota: Você não precisa de nenhuma chave simétrica se estiver usando a criptografia "simples", baseada em senha ou a criptografia PGP.
+
+## Criando uma Chave
+Toque em (+) para criar uma nova chave. Selecione um dos tipos de chave disponíveis:
+
+<a name="random"></a>
+### Chave aleatória
+Cria uma chave secreta aleatória de 256 bits.
+
+É impossível crack essa chave, mas vai demorar algum esforço para compartilhar com segurança com o seu partido remoto.
+
+Aguarde alguns segundos enquanto Oversec cria a chave e, em seguida, digite um Alias ou Nome para a chave e finalmente toque no botão "Salvar".
+
+
+<a name="pbkdf"></a>
+### Chave baseada em senha
+Cria uma chave com base em uma senha.
+
+Isso é menos seguro, mas você só precisa concordar com uma senha, para que a outra parte possa gerar uma chave correspondente.
+
+Observe que isso ainda é mais seguro do que usar o modo de criptografia baseado em "passphrase" simples, pois o Oversec exigirá muita energia computacional para derivar uma chave simétrica de 256 bits da frase-senha.
+
+Introduza uma frase de acesso segura e longa ou toque em "Sugerir uma palavra-passe segura" para permitir que o Oversec gere uma frase de acesso segura para si.
+Em seguida, repita o tipo de senha para se certificar de que você se lembrou. Em seguida, toque em "continuar"
+
+Aguarde alguns segundos enquanto o Oversec calcula uma chave com base na frase-senha, digite um Alias ou Nome para a chave e finalmente toque no botão "Salvar".
+
+<a name="scan"></a>
+## Compartilhar / Importar uma Chave
+A melhor maneira de importar uma chave é digitalizá-la diretamente a partir do outro telefone via código QR:
+
+####Alice
+* Abra a chave que você deseja compartilhar
+* Toque em "revelar" para mostrar o código QR completo
+* (Você pode ter que digitar a senha chave para fazer isso)
+
+####Bob
+* Toque em (+) para criar uma nova chave e, em seguida, selecione "Código QR"
+* Digitalize o código QR do telefone de Alice.
+* Digite um Alias para a chave e finalmente toque no botão "Salvar".
+
+
+### Se você recebeu uma imagem do código QR de alguma outra maneira:
+* Abrir a imagem
+* Toque em "Compartilhar"
+* Selecionar (Oversec) "Importar Chave"
+* Digite a senha que protege a chave
+* Digite um Alias para a chave e finalmente toque no botão "Salvar".
+* * Certifique-se de verificar e confirmar esta chave * (veja abaixo)
+
+
+## Compartilhamento
+Para compartilhar uma chave em um canal inseguro (por exemplo, email)
+
+* Abrir os detalhes da chave
+* Toque em "Menu" e selecione "Enviar criptografado"
+* Você pode primeiro precisar desbloquear a chave
+* Digite e repita uma senha de compartilhamento para proteger a chave.
+* A pessoa que recebeu essa chave precisará saber essa senha para importar a chave.
+* Selecione o aplicativo para compartilhar a chave com.
+
+##Cópia de segurança
+Para fazer backup de suas chaves, p. Ex. Imprimir o fora em um pedaço de papel ou armazená-los em mídia removível:
+
+* Abrir os detalhes da chave
+* Toque em "Menu" e selecione "Exibir / imprimir criptografado"
+* Você pode primeiro precisar desbloquear a chave
+* Digite e repita uma senha de compartilhamento para proteger a chave.
+* Você precisará se lembrar desta senha para restaurar / importar essas chaves mais tarde!
+* Selecione o aplicativo para exibir / imprimir / salvar a chave com.
+
+<a name="details"></a>
+
+## Confirmar chaves
+Ao importar chaves de outra fonte, elas serão marcadas como "não confirmadas".
+Isto é porque as chaves podem possivelmente ser adulteradas antes de você começar a importá-los.
+
+Você precisa entrar em contato com a pessoa que você tem a chave através de um canal seguro (chamada telefónica?) E comparar as impressões digitais chave.
+Para iniciar este processo, abra a tecla e toque no botão (✓)
+

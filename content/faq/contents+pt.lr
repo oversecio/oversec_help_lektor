@@ -1,0 +1,10 @@
+title: Perguntas frequentes
+
+---
+body:
+
+### P: Por que não há Oversec para iPhones?
+R: Infelizmente, não é tecnicamente possível implementar a funcionalidade do Oversec no iOS - faltam APIs de acessibilidade pública em primeiro lugar
+
+---
+sortstring: y

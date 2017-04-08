@@ -22,6 +22,10 @@ name = Español
 url_prefix = /es/
 locale = es
 
+[alternatives.pt]
+name = Português
+url_prefix = /pt/
+locale = pt
 
 [packages]
 lektor-markdown-highlighter = 0.1
