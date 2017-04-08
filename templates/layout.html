@@ -76,11 +76,11 @@
     //Enter ISO 639-2 letter Language codes to detect (see: http://www.w3.org/WAI/ER/IG/ert/iso639.htm):
     var langcodes=new Array("en", "de", "es", "pt", "default")
     //Enter corresponding redirect URLs (last one is for default URL):
-    var langredirects=new Array("", "de", "es", "pt", "")
+    var langredirects=new Array("en", "de", "es", "pt", "en")
     var languageinfo=navigator.language? navigator.language : navigator.userLanguage
     var gotodefault=1
     
-    
+
     //alert("languageinfo: "+languageinfo.substr(0,2));
 
     var pathMatch = 0
@@ -157,7 +157,7 @@ function w3_close() {
   </span>
   <div style="float: right; display: inline-block; margin-right:5px">
       <a href="{{ '.'|url(alt='de') }}"><img src="{{ '/static/flags/DE.png'|url }}"></a>
-      <a href="{{ '.'|url(alt='') }}"><img src="{{ '/static/flags/GB.png'|url }}"></a>
+      <a href="{{ '.'|url(alt='en') }}"><img src="{{ '/static/flags/GB.png'|url }}"></a>
       <a href="{{ '.'|url(alt='es') }}"><img src="{{ '/static/flags/ES.png'|url }}"></a>
       <a href="{{ '.'|url(alt='pt') }}"><img src="{{ '/static/flags/PT.png'|url }}"></a>
   </div>

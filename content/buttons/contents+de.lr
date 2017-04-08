@@ -42,7 +42,7 @@ Wenn der Verschlüsseln-Button also direkt über dem "Senden" Button der darunte
 
 <a name="button_compose"></a>
 ### Verfassen-Button
-<div class="buttoncircle"><img src="ic_create_black_24dp.png"></img></div>
+<div class="buttoncircle"><img src="/buttons/ic_create_black_24dp.png"></img></div>
 
 Mit diesem Button kann Text in einem extra Fenster erfasst werden, der dann verschlüsselt in der Zwischenablage abgelegt wird.
 Danach kann dann der verschlüsselte Text aus der Zwischenablage in Eingabefelder eingefügt werden, die ansonsten nicht von Oversec erkannt werden.

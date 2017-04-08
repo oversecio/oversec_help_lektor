@@ -2,9 +2,16 @@
 name = Oversec Help
 url_style = absolute
 
+[alternatives.default]
+name = English
+url_prefix = /
+primary = yes
+locale = en_US
+
+
 [alternatives.en]
 name = English
-primary = yes
+url_prefix = /en/
 locale = en_US
 
 [alternatives.de]
