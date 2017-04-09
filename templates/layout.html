@@ -122,6 +122,11 @@ function w3_close() {
     x.style.display = "none";
 }
 
+function toggleLang() {
+ document.getElementById("langDropdown").classList.toggle("show");
+}
+
+
 //TODO: write a lektor plugin (see https://github.com/lektor/lektor-markdown-admonition for an example)
 //to fix the links during *build* time
 
@@ -155,7 +160,47 @@ function prependAlternatives() {
 window.onload = prependAlternatives
 
     </script>
+<style type="text/css">
+  
 
+/* Dropdown Button */
+.dropbtn {
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFD89E;
+
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+</style>
 
 </head>
 <body>
@@ -189,11 +234,18 @@ window.onload = prependAlternatives
  Oversec Help
   </span>
   <div style="float: right; display: inline-block; margin-right:5px">
-      <a class="noprepend" href="{{ '.'|url(alt='de') }}"><img src="{{ '/static/flags/DE.png'|url }}"></a>
+
+<div class="dropdown">
+  <img src="{{ '/static/flags/UN.png'|url }}" onclick="toggleLang()" class="dropbtn"/>
+  <div id="langDropdown" class="dropdown-content">
       <a class="noprepend" href="{{ '.'|url(alt='en') }}"><img src="{{ '/static/flags/GB.png'|url }}"></a>
+      <a class="noprepend" href="{{ '.'|url(alt='de') }}"><img src="{{ '/static/flags/DE.png'|url }}"></a>
       <a class="noprepend" href="{{ '.'|url(alt='es') }}"><img src="{{ '/static/flags/ES.png'|url }}"></a>
       <a class="noprepend" href="{{ '.'|url(alt='pt') }}"><img src="{{ '/static/flags/PT.png'|url }}"></a>
       <a class="noprepend" href="{{ '.'|url(alt='ru') }}"><img src="{{ '/static/flags/RU.png'|url }}"></a>
+  </div>
+</div>
+
 
   </div>
 </header>
