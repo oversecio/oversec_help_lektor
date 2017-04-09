@@ -1,0 +1,80 @@
+_model: page
+---
+title: Настроить
+---
+body:
+
+<a name="main_help"></a>
+<a name="main_help_acsconfig"></a>
+### Необходимая настройка
+
+The basic operating principle of Oversec is that it constantly monitors the screen for encrypted text. 
+
+To be able to read the screen contents, it has to be enabled as a so called "Accessibility Service".
+
+So as the first step, before you can use Oversec, you need to enable Oversec as an Accessibility Service in Androids "Accessibility Settings".
+
+Tapping on "Configure" will lead you directly to the relevant Settings page:
+
+Основной принцип работы Oversec заключается в том, что он постоянно контролирует экран для зашифрованного текста.
+
+Чтобы иметь возможность читать содержимое экрана, его нужно включить как так называемую «службу специальных возможностей».
+
+Итак, на первом этапе, прежде чем вы сможете использовать Oversec, вам нужно включить Oversec в качестве Службы специальных возможностей в «Настройках специальных возможностей» Андроидов.
+
+Нажатие кнопки «Настроить» приведет вас непосредственно к соответствующей странице настроек:
+
+
+Теперь нажмите «Oversec»
+<br></br>
+<img src="/setup/acs_settings_step_1_L.png"></img>
+<br></br>
+Теперь нажмите на переключатель в правом верхнем углу
+<br></br>
+<img src="/setup/acs_settings_step_2_L.png"></img>
+<br></br>
+Нажмите «Вкл».
+<br></br>
+<img src="/setup/acs_settings_step_3_L.png"></img>
+<br></br>
+Теперь переключатель должен быть включен. Нажмите «НАЗАД»,
+<br></br>
+<img src="/setup/acs_settings_step_4_L.png"></img>
+<br></br>
+Теперь Oversec должен быть включен. Нажмите «НАЗАД»,
+<br></br>
+<img src="/setup/acs_settings_step_5_L.png"></img>
+<br></br>
+
+
+<a name="main_help_accessibilitysettingsnotresolvable"></a>
+На некоторых телефонах с пользовательской версией Android страница настроек, которая позволяет настраивать службы специальных возможностей, недоступна или недоступна в ожидаемом месте.
+
+Попробуйте вручную найти страницу «Доступность» в настройках телефона, а затем <a href="#main_help_acsconfig"> включить Oversec как службу специальных возможностей </a>.
+
+### <a name="main_apps"></a>Настройка приложений для Oversec
+
+Это список всех приложений, которые вы установили.
+
+Кнопки и оверлеи Oversec отображаются только в верхней части приложений, которые отмечены здесь.
+Просмотрите список и проверьте все приложения, с которыми вы хотите работать с Oversec.
+
+* Примечание. Нажмите на значок вопроса в любом приложении, чтобы отобразить дополнительную информацию, связанную с Oversec для этого приложения. *
+ 
+* Примечание. Вы также можете отключить приложение для Oversec после нажатия кнопки Oversec Config при отображении приложения. *
+ 
+### Симметричные клавиши
+
+См. [Симметричные ключи](/encryption-parameters/symmetric-keys)
+
+
+
+### <a name="main_settings"></a>General Settings
+
+#### Разрешить скриншоты
+По умолчанию Oversec запрещает системе снимать скриншоты, показывая конфиденциальную информацию. В зависимости от способа создания скриншотов снятие скриншотов либо сбой, либо получение пустого или черного изображения.
+
+Вы можете временно отключить это поведение, если вы хотите делать скриншоты, чтобы показать или рассказать об Oversec, но мы настоятельно рекомендуем не отключать этот параметр!
+
+---
+sortstring: b

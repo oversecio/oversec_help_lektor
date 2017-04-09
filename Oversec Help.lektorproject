@@ -34,6 +34,11 @@ name = Português
 url_prefix = /pt/
 locale = pt
 
+[alternatives.ru]
+name = русский
+url_prefix = /ru/
+locale = ru
+
 [packages]
 lektor-markdown-highlighter = 0.1
 

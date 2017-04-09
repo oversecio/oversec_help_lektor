@@ -4,7 +4,7 @@ title: Configuración por aplicación
 ---
 body:
 
-<div class="buttoncircle"><img src="ic_settings_black_24dp.png"/></div>
+<div class="buttoncircle"><img src="/setup/ic_settings_black_24dp.png"/></div>
 Nota Esta página de configuración también se puede abrir tocando el botón de configuración Oversec desde cualquier aplicación habilitada para overec.
 
 <a name="main"></a>

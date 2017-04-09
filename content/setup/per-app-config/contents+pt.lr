@@ -4,7 +4,7 @@ title: Configuração por-app
 ---
 body:
 
-<div class="buttoncircle"><img src="ic_settings_black_24dp.png"/></div>
+<div class="buttoncircle"><img src="/setup/ic_settings_black_24dp.png"/></div>
 Nota: Esta página de configuração também pode ser aberta tocando no botão Oversec config de dentro de qualquer aplicativo habilitado para Oversec.
 
 <a name="main"></a>
