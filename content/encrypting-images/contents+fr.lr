@@ -1,0 +1,36 @@
+_model: page
+---
+title: Cryptage d'images
+---
+body:
+
+###Crypter une image existante
+Pour chiffrer et envoyer une image existante:
+* Dans votre application Photos ou Galerie, ouvrez la photo
+* Appuyez sur "Partager"
+* Tapez sur "Chiffrer l'image"
+* Ensuite, appuyez sur l'application à laquelle vous souhaitez envoyer l'image cryptée avec
+* Entrez / ajustez [paramètres de cryptage](/encryption-parameters)
+* Appuyez sur [le bouton "Chiffrer"](/buttons#button_encrypt)
+* Sélectionnez le chat / contact / destinataire dans l'application expéditeur.
+
+###Prise de photo chiffrée
+Oversec vous permet de prendre une photo et de l'envoyer ou la stocker sous forme de photo cryptée, sans jamais enregistrer la photo simple sur votre appareil!
+
+Pour prendre une photo chiffrée:
+* Activez [le bouton "Caméra"](/buttons#button_camera) pour l'application
+* Appuyez [le bouton "Caméra"](/buttons#button_camera)
+* Prenez et confirmez la photo
+* Entrez / ajustez [paramètres de cryptage](/encryption-parameters)
+* Appuyez sur [le bouton "Chiffrer"](/button#button_encrypt)
+* Sélectionnez le chat / contact / destinataire dans l'application sous-jacente.
+
+### Décryptage d'une image
+Pour déchiffrer et afficher le contenu d'une image cryptée:
+* Ouvrir / afficher l'image cryptée
+* Appuyez sur "Partager"
+* Appuyez sur "Decrypt Image"
+* Entrez la clé de passe / déverrouillage
+
+---
+sortstring: i

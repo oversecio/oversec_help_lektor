@@ -1,0 +1,54 @@
+title: Paramètres de Chiffrement
+---
+body:
+
+<a name="simple"><br/></a>
+# Simple
+Chiffrer en partageant uniquement un mot de passe simple.
+
+C'est un bon moyen d'essayer Oversec, mais ce n'est peut-être pas très sécurisé: un attaquant peut simplement essayer / deviner le mot de passe, alors assurez-vous d'utiliser un mot de passe très long et compliqué.
+
+### Ajout de mots de passe
+Pour chiffrer ou déchiffrer, vous devez d'abord ajouter un autre mot de passe en appuyant sur "Ajouter un mot de passe". Oversec conservera et se souviendra d'un mot de passe jusqu'à l'heure que vous spécifiez lors de la saisie du mot de passe.
+
+Une fois qu'un mot de passe a expiré, il est complètement disparu. Vous devrez l'entrer à nouveau sur cette page!
+
+### Sélection des mots de passe
+Pour chiffrer avec un ou plusieurs mots de passe, appuyez simplement sur la case à cocher à côté de chaque mot de passe. Oversec va chiffrer le message pour chacun des mots de passe sélectionnés - Quiconque connait au moins un des mots de passe sélectionnés pourra décrypter le message.
+
+<a name="sym"><br/></a>
+#Symétrique
+Chiffrer en partageant une clé symétrique sécurisée
+
+This is a very safe way to encrypt, but you will have to share the encryption key through a safe channel - ideally by meeting in person and [sharing the symmetric key via Camera and QR-Code](/encryption-parameters/symmetric-keys/key-create).
+
+C'est un moyen très sûr de chiffrer, mais vous devrez partager la clé de cryptage via un canal sécurisé - idéalement en vous rendant en personne et [partageant la clé symétrique via Camera et QR-Code](/encryption-parameters/symmetric-keys/key-create).
+
+### Ajout de clés
+Utilisez l'application principale Oversec pour [créer et organiser vos clés symétriques](/encryption-parameters/symmetric-keys).
+
+### Sélectionner des clés
+Pour chiffrer avec une ou plusieurs clés, appuyez simplement sur la case à cocher à côté de chaque touche. Oversec va chiffrer le message pour chacune des clés sélectionnées - quiconque possède au moins une des clés sélectionnées pourra décrypter le message.
+
+<a name="pgp"><br/></a>
+## PGP
+Chiffrer avec les clés public / privé PGP. Vous avez besoin de [OpenKeyChain](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain) pour utiliser cette méthode et gérer vos clés PGP.
+<br/>
+#### Important: le cryptage PGP ajoute environ 2 kilo-octets ou plus de données à votre message chiffré. S'il vous plaît considérer cela et selon votre plan de données, vous voudrez peut-être utiliser un cryptage symétrique à la place (ce qui nécessite beaucoup moins de données).
+
+### Clé propre
+Si vous ne l'avez pas encore fait, sélectionnez votre propre clé PGP à côté de "Moi-même". Vous devez le faire si vous souhaitez chiffrer les messages vous-même ou si vous souhaitez signer des messages.
+
+### Signature d'un message
+Cochez la case "Signer le message" pour signer le message avec votre propre clé privée.
+
+### Récipiendaires
+Appuyez sur le bouton (+) pour ajouter des destinataires. Cela ouvrira l'application OpenKeyChain où vous pouvez sélectionner une ou plusieurs clés publiques. (Vous pouvez télécharger / gérer des clés publiques dans cette application!)
+
+Oversec va chiffrer le message avec les clés publiques de chacun des destinataires sélectionnés et vous-même - toute personne ayant une clé privée correspondante pourra décrypter son message.
+
+---
+sortstring:
+
+d
+

@@ -1,0 +1,118 @@
+_model: page
+---
+title: Configuration par application
+---
+body:
+
+<div class="buttoncircle"><img src="/setup/per-app-config/ic_settings_black_24dp.png"/></div>
+Remarque: Cette page de configuration peut également être ouverte en appuyant sur le bouton de configuration Oversec depuis n'importe quelle application surchargée.
+
+<a name="main"></a>
+##Options 
+Options générales
+
+####Activer Oversec
+Oversec ne s'affichera que sur les applications activées ici.
+
+####Bouton "Configuration"
+Affiche le [Bouton "Configuration"](/buttons#button_config) qui permet un accès direct à cette page de configuration.
+
+Une fois que vous avez terminé la configuration de base, vous pouvez désactiver ce bouton en toute sécurité - vous pouvez toujours accéder à la configuration de l'application via la barre de notification ou via l'application Overec principale.
+
+
+####Démarrer en mode invisible
+Une fois vérifié, Oversec ne s'affichera pas initialement lors de la saisie d'une application compatible Oversec. Vous devrez appuyer sur le [Bouton "Invisibilité"](/buttons#button_hide) pour afficher la superposition d'écran Oversec.
+
+####Bouton "Invisibilité"
+Affiche le [Bouton "Invisibilité"](/buttons#button_hide) qui permet de cacher temporairement la superposition d'écran Oversec.
+
+Astuce: Ce bouton sert également de [Bouton Panique] (/panic), il est donc recommandé de conserver toujours ce bouton!
+
+####Bouton "Décrypter / Effacement"
+Affiche le [Bouton "Décrypter](/buttons#button_decrypt) qui permet de décrypter ou d'effacer le champ de saisie actuel.
+
+####Bouton "Composer"
+Affiche le [Bouton "Composer"](/buttons#button_compose) qui vous permet de crypter et coller du texte via le Presse-papiers
+
+####Bouton "Caméra"
+Affiche le [Bouton "Caméra"](/buttons#button_camera) qui vous permet de [prendre directement et envoyer des photos cryptées](/encrypting-images)
+
+<a name="appearance"></a>
+##Apparence
+Apparence visuelle
+
+Régler l'apparence visuelle des superpositions d'écran Oversec - choses comme les polices, les tailles, les rembourrages, les couleurs, les transparents, etc.
+
+<a name="lab"></a>
+##Lab
+Options étendues et d'incubation
+
+####Bouton "Info"
+En- / Désactive le [Bouton "Info"](/buttons#button_info) pour afficher des informations de cryptage supplémentaires.
+
+####Appuyez sur pour afficher les infos
+Lorsqu'il est activé, le fait de taper sur un texte chiffré affichera des informations détaillées sur le cryptage
+
+**Avertissement: Cela pourrait interférer avec l'UX de l'application sous-jacente, car il ne recevra plus d'événements de prise!**
+
+####Appuyez longue pour montrer info
+Afficher les informations de cryptage détaillées, en tapant longuement  sur un texte crypté
+
+**Avertissement: Cela pourrait interférer avec l'UX de l'application sous-jacente, car il ne recevra plus de certains événements à prise longue!**
+
+####Bouton "Chiffrer"
+Affichez le [Bouton "Chiffrer"](/buttons#button_encrypt) à côté du champ de saisie actif.
+
+  (Le bouton "Chiffrer" ne s'affiche pas non plus si le bouton cryptage n'est pas affiché) 
+
+
+####Basculer Bouton \"Chiffrer\"
+Affiche ou masque le [Bouton "Chiffrer"](/buttons#button_encrypt) lorsque vous tapez longuement sur un champ de saisie.
+
+**Attention: cela pourrait interférer avec l'UX de l'application sous-jacente!**
+
+####Afficher un Dialogue de saisie immédiatement
+Quand le mot de passe de déchiffrement doit être saisi, le faire immédiatement sans demander préalablement à l'utilisateur.
+
+####Notification
+Afficher une notification permanente pour contrôler Oversec
+
+####Afficher le texte dechiffré au-dessus du texte entré.
+Afficher le texte décrypté *juste au dessus * du champ de saisie, ce qui rend le e texte de leurre plus facile à consulter ou à  modifier.
+
+####Étendre le texte crypté verticalement
+Alloue plus d'espace vertical pour le texte déchiffré s'il ne rentre pas dans l'espace utilisé par le texte chiffré. Peut obstruer les parties de l'application sous-jacente.
+
+**Attention: peut entraver certaines parties de l'application sous-jacente.**
+
+####Gardez  les sauts de ligne
+Si le texte brut contient des sauts de ligne, mettre le même nombre de ruptures dans le texte leurre. 
+
+**Attention: Fuites quelques informations en clair possible!**
+
+####Ajouter du "rembourrage" avant de chiffrer
+Ajouter (au maximum) ce nombre d\'octets aléatoires avant le cryptage. Cela empêche un attaquant de deviner le message d\'origine par le nombre de caractères
+
+####Paramètres singleton
+Ne sauvegarder qu\'un seul groupe de paramètres de chiffrement par application. Ceci est destiné aux applications stockant des notes, il ne doit pas être activé pour les applications de communication.
+
+####Afficher toujours les paramètres de chiffrement
+Ne jamais réutiliser automatiquement les paramètres de cryptage précédents.
+
+####Balayage de haute qualité
+Effectue un scan plus fréquent. Produit une impression de rapidité au prix d\'une utilisation accrue de la batterie.
+
+####Analyser toutes les vues
+Inclue aussi les vues considérées comme «Pas importantes». Ceci est nécessaire pour seulement quelques applications. Cela ralentit Oversec et utilise plus de batterie !.
+
+<a name="spreadinvisibleencoding"></a>
+####Répartir l\'encodage
+Répartir les caractères invisibles encodées dans tout le texte, plutôt que de les mettre tous au début. Ceci est nécessaire pour certaines applications comme par exemple Instagram
+
+---
+sortstring: m
+---
+_template:
+
+page_apps.html
+

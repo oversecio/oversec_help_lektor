@@ -5,7 +5,7 @@ title: Per-App Configuration
 body:
 
 <div class="buttoncircle"><img src="ic_settings_black_24dp.png"/></div>
-Note This configuration page can also be  opened by tapping the Oversec config button from within any oversec-enabled app.
+Note: This configuration page can also be  opened by tapping the Oversec config button from within any oversec-enabled app.
 
 <a name="main"></a>
 ##Options 

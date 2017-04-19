@@ -1,0 +1,121 @@
+_model: page
+---
+title: Boutons
+---
+body:
+
+
+<a name="button_hide"></a>
+### Bouton "Invisibilité"
+<div class="buttoncircle"><img  src="/buttons/ic_clear_black_24dp.png"></img></div> 
+
+Appuyez sur ce bouton pour masquer temporairement toutes les superpositions Oversec.
+
+Appuyez à nouveau sur la même position (alors que tous ces autres boutons sont cachés) pour se déconcerter!
+
+Ce bouton fonctionne également comme un bouton de panique: appuyez longuement sur pour entrer [Mode panique](/panic)
+
+Double-tapping sur ce bouton permet d'afficher la [page de configuration par application](/setup/per-app-config/) où vous pouvez configurer divers aspects de la manière dont Oversec fonctionne en conjonction avec l'application en cours.
+
+
+*Remarque: Ce bouton peut être déplacé et placé n'importe où sur l'écran.*
+
+
+<a name="button_encrypt"></a>
+### Bouton "Chiffrer"
+<div class="buttoncircle"><img src="/buttons/ic_lock_black_24dp.png"></img></div>
+
+<a name="button_encrypt_initial"></a>
+Appuyez sur ce bouton pour chiffrer le texte saisi. Une fois que le texte a été chiffré, ce bouton disparaît automatiquement. Donc, si vous placez ce bouton sur le bouton «Envoyer» ou «Enregistrer» de l'application sous-jacente, vous pouvez vous assurer que vous ne parvenez pas à envoyer ou à enregistrer un texte en clair.
+
+<a name="button_encrypt_encryptionparamsremembered"></a>
+Si vous n'avez pas encore chiffré cette application, appuyez sur ce bouton pour afficher un écran ou pour modifier les paramètres de cryptage. La prochaine fois que vous appuyez sur ce bouton, ces paramètres seront utilisés et le cryptage se produira instantanément.
+Si vous souhaitez toujours modifier les paramètres de cryptage, appuyez longuement sur ce bouton pour afficher avec force l'écran de chiffrement-params.
+
+*Astuce: Double-appuyez sur ce bouton le cachera pour une courte période, afin que les boutons de l'application sous-jacente puissent être utilisés.
+Donc, si le bouton Encrypt est positionné juste au-dessus du bouton d'envoi de l'application sous-jacente, vous pouvez _triple_ appuyer cette position pour envoyer un message _non chiffré_ *
+
+*Remarque: Ce bouton peut être traîné et placé autour du champ de saisie.*
+
+
+<a name="button_compose"></a>
+### Bouton "Composer"
+<div class="buttoncircle"><img src="/buttons/ic_create_black_24dp.png"></img></div>
+
+Ce bouton vous permet d'entrer du texte dans un écran séparé, puis de placer le texte chiffré dans le Presse-papiers.
+Vous pouvez ensuite coller le texte du presse-papiers dans des champs de saisie qui, autrement, ne sont pas accessibles par Oversec.
+(Exemple: Corps d'un message électronique dans "Inbox By Gmail")
+Appuyez sur ce bouton pour ouvrir l'écran de saisie.
+
+<a name="compose_encrypt_button"></a>
+Une fois que vous avez entré le texte, appuyez sur le bouton dans cet écran. Le texte entré est chiffré et est placé dans le presse-papiers,
+
+<a name="paste_clipboard"></a>
+Maintenant, appuyez longuement sur un champ de saisie, puis sélectionnez "COLLER" pour coller le texte chiffré du presse-papiers dans le champ de saisie.
+
+*Remarque: Ce bouton peut être déplacé et placé n'importe où sur l'écran.*
+
+* Remarque: Ce bouton n'est pas activé par défaut. Cliquez sur le bouton de configuration pour ouvrir la [page de configuration par application](/setup/per-app-config/) où vous pouvez activer le bouton de composition. *
+
+<a name="button_decrypt"></a>
+### Bouton Décrypter / Effacement
+Ce bouton change son icône et sa fonction en fonction du texte dans le champ de saisie:
+
+<div class="buttoncircle"><img src="/buttons/ic_lock_open_black_24dp.png"></img></div>
+
+Il y a un texte chiffré dans le champ de saisie. Appuyez sur ce bouton pour décrypter et remettre le texte brut dans le champ de saisie.
+
+*Remarque: cette fonctionnalité n'est pas disponible sur Android Kitkat pour des raisons de sécurité!*
+
+<div class="buttoncircle"><img  src="/buttons/ic_backspace_black_24dp.png"></img></div>
+
+Il y a du texte dans le champ de saisie. En appuyant sur ce bouton, vous effacez tout le texte.
+
+
+*Remarque: Ce bouton peut être traîné et placé autour du champ de saisie.*
+
+
+<a name="button_info"></a>
+### Bouton "Info"
+
+
+<div class="buttoncircle"><img src="/buttons/ic_info_outline_black_24dp.png"></img></div>
+
+Appuyez sur ce bouton pour accéder au mode info.
+
+En mode info, il y aura une version plus petite de ce bouton à côté de tous les textes cryptés trouvés sur l'écran.
+Appuyez sur le petit bouton info pour afficher des informations détaillées sur le chiffrement de ce texte.
+
+<div class="buttoncircle"><img  src="/buttons/ic_not_interested_black_24dp.png"></img></div>
+
+En mode info, ce bouton montre comme ci-dessus. Tapez-le pour quitter le mode info.
+
+*Remarque: Ce bouton peut être déplacé et placé n'importe où sur l'écran.*
+
+*Remarque: Ce bouton n'est pas activé par défaut. Cliquez sur le bouton de configuration pour ouvrir la [page de configuration par application](/setup/per-app-config/) où vous pouvez activer le bouton info.*
+
+*Remarque: Appuyez longuement sur le Bouton Info affiche la [page de configuration par application](/setup/per-app-config/) (voir ci-dessous). Vous pouvez ainsi activer le bouton info et désactiver le bouton de configuration dans [la page de configuration par application](/setup/per-app-config/) et avoir encore accès à la configuration de l'application en appuyant longuement sur le bouton info.
+
+<a name="button_config"></a>
+### Bouton "Configuration"
+<div class="buttoncircle"><img src="/buttons/ic_settings_black_24dp.png"></img></div>
+
+En appuyant sur ce bouton, vous affichez la [page de configuration par application](/setup/per-app-config/) où vous pouvez configurer différents aspects de la manière dont Oversec fonctionne conjointement avec l'application en cours.
+
+*Remarque: Ce bouton peut être déplacé et placé n'importe où sur l'écran.*
+
+
+
+
+<a name="button_camera"></a>
+### Bouton "Caméra"
+<div class="buttoncircle"><img src="/buttons/ic_camera_alt_black_24dp.png"></img></div>
+
+En appuyant sur ce bouton, vous pouvez prendre et envoyer une photo cryptée.
+
+Ce bouton n'est disponible que pour les applications qui supportent l'envoi d'images.
+Vous pouvez choisir si vous voulez voir ou cacher ce bouton dans [la page de configuration par application](/setup/per-app-config/)
+
+*Remarque: Ce bouton peut être déplacé et placé n'importe où sur l'écran.*
+---
+sortstring: a

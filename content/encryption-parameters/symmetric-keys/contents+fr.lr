@@ -1,0 +1,85 @@
+_model: page
+---
+title: Clés symétriques
+---
+sortstring: m
+---
+body:
+
+####Remarque: Vous n'avez besoin d'aucune clé symétrique si vous utilisez le cryptage «simple», basé sur un mot de passe ou le cryptage PGP.
+
+## Création d'une clé
+Appuyez sur (+) pour créer une nouvelle clé. Sélectionnez l'un des types de clés disponibles:
+
+<a name="random"></a>
+###Clé aléatoire
+Crée une clé secrète de 256 bits aléatoires.
+
+Il est impossible de craquer une telle clé, mais il faudra un effort pour le partager en toute sécurité avec votre partie distante.
+
+Patientez quelques secondes pendant que Oversec crée la clé, puis entrez un alias ou un nom pour la touche et enfin appuyez sur le bouton "Enregistrer".
+
+<a name="pbkdf"></a>
+###Clé basée sur le mot de passe
+Crée une clé basée sur une phrase secrète..
+
+Ceci est moins sécurisé, mais il suffit de vous mettre d'accord sur une phrase secrète, de sorte que l'autre partie peut générer une clé correspondante.
+
+Notez que cela est encore plus sûr que d'utiliser le mode de cryptage "simple" basé sur la phrase de passe, car Oversec nécessitera beaucoup de pouvoir informatique pour dériver une clé symétrique de 256 bits à partir de la phrase de passe.
+
+Entrez une phrase de passe sécurisée et longue ou appuyez sur "Suggérer un mot de passe fort" pour permettre à Oversec de générer une phrase de passe sécurisée pour vous.
+Ensuite, répétez-tapez le mot de passe pour vous en assurer. Ensuite, appuyez sur "continuer"
+
+Patientez quelques secondes alors que Oversec calcule une clé en fonction de la phrase de passe, puis entrez un alias ou un nom pour la touche et enfin appuyez sur le bouton "Enregistrer".
+
+<a name="scan"></a>
+## Partage / Importation d'une clé
+La meilleure façon d'importer une clé est de la scanner directement à partir de l'autre téléphone via QR-Code:
+
+#### Alice
+* Ouvrez la clé que vous souhaitez partager
+* Appuyez sur "révéler" pour afficher le QR-Code complet
+* (Vous devrez peut-être saisir le mot-clé pour le faire)
+
+####Bob
+* Appuyez sur (+) pour créer une nouvelle clé, puis sélectionnez "QR-Code"
+* Scannez le QR-Code depuis le téléphone d'Alice.
+* Entrez un alias pour la clé et enfin appuyez sur le bouton "Enregistrer".
+
+
+### Si vous avez reçu une image du QR-Code autrement:
+* Ouvrir l'image
+* Appuyez sur "Partager"
+* Sélectionnez (Oversec) "Importer la clé"
+* Entrez la phrase secrète qui protège la clé
+* Entrez un alias pour la clé et enfin appuyez sur le bouton "Enregistrer".
+* * Vérifiez et confirmez cette touche * (voir ci-dessous)
+
+##Partage
+Pour partager une clé sur un canal non sécurisé (ex. Courrier électronique)
+
+* Ouvrir les détails clés
+* Appuyez sur "Menu" et sélectionnez "Envoyer chiffré"
+* Vous devez d'abord déverrouiller la clé
+* Entrez et répétez un mot de passe de partage pour protéger la clé.
+* La personne qui a reçu cette clé devra connaître ce mot de passe afin d'importer la clé.
+* Sélectionnez l'application pour partager la clé avec.
+
+## Sauvegarde
+Pour sauvegarder vos clés par exemple Imprimer sur un morceau de papier ou les stocker sur un support amovible:
+
+* Ouvrir les détails clés
+* Appuyez sur "Menu" et sélectionnez "Afficher / imprimer crypté"
+* Vous devez d'abord déverrouiller la clé
+* Entrez et répétez un mot de passe de partage pour protéger la clé.
+* Vous devrez vous souvenir de ce mot de passe pour restaurer / importer ces clés plus tard!
+* Sélectionnez l'application pour afficher / imprimer / enregistrer la clé avec.
+
+<a name="details"></a>
+
+## Confirmer les clés
+Lors de l'importation de clés d'une autre source, elles seront marquées comme "non confirmées".
+C'est parce que les clés peuvent être falsifiées avant d'en importer.
+
+Vous devez contacter la personne à laquelle vous avez obtenu la clé via une chaîne sécurisée (phonecall?) Et comparer les empreintes clés.
+Pour lancer ce processus, ouvrez la touche et appuyez sur le bouton (✓)
