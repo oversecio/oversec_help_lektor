@@ -1,0 +1,13 @@
+_model: page
+---
+!INCLUDE "encoding/title.md"
+---
+body:
+
+&appname; provides multiple methods of encoding an encrypted message:
+
+!INCLUDE "encoding/decoy.md"
+
+!INCLUDE "encoding/settextfailed.md"
+
+!INCLUDE "encoding/otherencodings.md"
