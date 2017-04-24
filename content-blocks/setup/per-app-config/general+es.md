@@ -1,0 +1,2 @@
+## Opciones
+Opciones generales

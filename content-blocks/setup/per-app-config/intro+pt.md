@@ -1,0 +1,1 @@
+Nota: Esta página de configuração também pode ser aberta tocando no botão &appname; config de dentro de qualquer aplicativo habilitado para &appname;.

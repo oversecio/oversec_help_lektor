@@ -1,0 +1,1 @@
+Une fois que vous avez terminé la configuration de base, vous pouvez désactiver ce bouton en toute sécurité - vous pouvez toujours accéder à la configuration de l'application via la barre de notification ou via l'application Overec principale.

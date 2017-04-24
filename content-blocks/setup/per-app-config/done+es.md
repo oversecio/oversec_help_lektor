@@ -1,0 +1,1 @@
+Una vez que haya terminado con la configuración básica, puede deshabilitar este botón con seguridad: aún puede acceder a la configuración de la aplicación a través de la barra de notificaciones oa través de la aplicación de sobrecarga principal.

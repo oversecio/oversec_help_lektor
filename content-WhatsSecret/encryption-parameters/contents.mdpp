@@ -1,0 +1,11 @@
+!INCLUDE "encryption-parameters/title.md"
+---
+body:
+
+!INCLUDE "encryption-parameters/simple.md"
+
+---
+sortstring:
+
+d
+

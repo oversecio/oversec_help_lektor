@@ -1,0 +1,1 @@
+Note: This configuration page can also be opened by tapping the &appname; config button.

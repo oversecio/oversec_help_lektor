@@ -1,0 +1,1 @@
+Remarque: Cette page de configuration peut également être ouverte en appuyant sur le bouton de configuration.

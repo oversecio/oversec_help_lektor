@@ -1,5 +1,12 @@
 build.sh
 
+
+**check links (probably /decoy , generalconfig.... broken!
+
+** all-in-one-config tab for whatssec
+
+** &targetapp; !!!
+
 copy "RELEVANT STUFF" to working dir
 	/content
 	/content_whatsapp

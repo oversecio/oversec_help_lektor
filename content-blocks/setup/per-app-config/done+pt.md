@@ -1,0 +1,1 @@
+Depois de concluir a configuração básica, você pode desativar este botão com segurança - você ainda pode acessar a configuração do aplicativo através da barra de notificação ou através do aplicativo principal &appname;.
