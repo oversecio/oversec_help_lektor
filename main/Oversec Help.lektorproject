@@ -1,5 +1,5 @@
 [project]
-name = Oversec Help
+name = &appname; Help
 url_style = absolute
 
 [alternatives.default]
@@ -43,4 +43,4 @@ locale = ru
 lektor-markdown-highlighter = 0.1
 
 [servers.ghpages]
-target = ghpages://oversecio/oversec_help?cname=help.oversec.io
+target = ghpages://oversecio/&repo;?cname=&cname;

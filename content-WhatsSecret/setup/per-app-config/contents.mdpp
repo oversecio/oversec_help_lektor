@@ -1,6 +1,7 @@
 _model: page
 ---
 !INCLUDE "setup/per-app-config/title.md"
+
 ---
 body:
 

@@ -5,19 +5,9 @@ build.sh
 
 ** all-in-one-config tab for whatssec
 
-** &targetapp; !!!
 
-copy "RELEVANT STUFF" to working dir
-	/content
-	/content_whatsapp
 
 patch main config file
 
 
-xx copy each contents.mdpp, to contents+lang.mdpp, with sed append "+lang" to include statements
-xx and prepend path to includes
-
-find ....  xargs
-	markdown-pp contents.mdpp -o contents.lr 
-	sed -ie 's/&appname;/Oversec/g' contents.lr 
 lektor build

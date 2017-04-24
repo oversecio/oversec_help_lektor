@@ -1,6 +1,7 @@
 _model: page
 ---
 !INCLUDE "setup/title.md"
+
 ---
 body:
 

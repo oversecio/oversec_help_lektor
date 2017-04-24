@@ -1,6 +1,7 @@
 _model: page
 ---
 !INCLUDE "setup/per-app-config/title.md"
+
 ---
 body:
 
@@ -33,7 +34,7 @@ body:
 
 
 <a name="lab"></a>
-!INCLUDE "setup/per-app-config/lab"
+!INCLUDE "setup/per-app-config/lab.md"
 
 ---
 sortstring: m
