@@ -3,7 +3,7 @@
 <div class="buttoncircle"><img src="/buttons/ic_create_black_24dp.png"></img></div>
 
 Ce bouton vous permet d'entrer du texte dans un écran séparé, puis de placer le texte chiffré dans le Presse-papiers.
-Vous pouvez ensuite coller le texte du presse-papiers dans des champs de saisie qui, autrement, ne sont pas accessibles par Oversec.
+Vous pouvez ensuite coller le texte du presse-papiers dans des champs de saisie qui, autrement, ne sont pas accessibles par appname;.
 (Exemple: Corps d'un message électronique dans "Inbox By Gmail")
 Appuyez sur ce bouton pour ouvrir l'écran de saisie.
 

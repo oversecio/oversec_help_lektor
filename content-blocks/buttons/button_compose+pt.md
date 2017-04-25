@@ -1,9 +1,9 @@
 <a name="button_compose"></a>
 ### Botão Redigir
-<div class="buttoncircle"><img src="ic_create_black_24dp.png"></img></div>
+<div class="buttoncircle"><img src="/buttons/ic_create_black_24dp.png"></img></div>
 
 Este botão permite que você insira texto em uma tela separada e, em seguida, coloque o texto criptografado na área de transferência.
-Você pode então colar o texto da área de transferência em campos de entrada que, de outra forma, não são acessíveis por Oversec.
+Você pode então colar o texto da área de transferência em campos de entrada que, de outra forma, não são acessíveis por appname;.
 (Exemplo: Corpo de uma mensagem de e-mail em "Inbox by Gmail")
 Toque neste botão para abrir a tela de entrada.
 

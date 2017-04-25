@@ -2,7 +2,7 @@
 ### >Botón de información
 
 
-<div class="buttoncircle"><img src="ic_info_outline_black_24dp.png"></img></div>
+<div class="buttoncircle"><img src="/buttons/ic_info_outline_black_24dp.png"></img></div>
 
 Toque este botón para ingresar al modo de información.
 
@@ -11,7 +11,7 @@ Toque en el pequeño botón de información para mostrar información de cifrado
 
 
 
-<div class="buttoncircle"><img  src="ic_not_interested_black_24dp.png"></img></div>
+<div class="buttoncircle"><img  src="/buttons/ic_not_interested_black_24dp.png"></img></div>
 
 Mientras está en modo de información, este botón muestra lo anterior. Toque para salir del modo de información.
 

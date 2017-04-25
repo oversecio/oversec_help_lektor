@@ -1,10 +1,10 @@
 <a name="button_compose"></a>
 ### Botón de componer
-<div class="buttoncircle"><img src="ic_create_black_24dp.png"></img></div>
+<div class="buttoncircle"><img src="/buttons/ic_create_black_24dp.png"></img></div>
 
 
 Este botón le permite introducir texto en una pantalla aparte y luego colocar el texto cifrado en el portapapeles.
-A continuación, puede pegar el texto del portapapeles en campos de entrada que no son accesibles por Oversec.
+A continuación, puede pegar el texto del portapapeles en campos de entrada que no son accesibles por appname;.
 (Ejemplo: Cuerpo de un mensaje de correo electrónico en "Inbox by Gmail")
 Toque este botón para abrir la pantalla de entrada.
 

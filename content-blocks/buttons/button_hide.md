@@ -1,6 +1,6 @@
 <a name="button_hide"></a>
 ### Hide-Button 
-<div class="buttoncircle"><img  src="ic_clear_black_24dp.png"></img></div> 
+<div class="buttoncircle"><img  src="/buttons/ic_clear_black_24dp.png"></img></div> 
 
 Tap this button to temporarily hide all the &appname; overlays.
 

@@ -1,6 +1,6 @@
 <a name="button_camera"></a>
 ### Camera-Button
-<div class="buttoncircle"><img src="ic_camera_alt_black_24dp.png"></img></div>
+<div class="buttoncircle"><img src="/buttons/ic_camera_alt_black_24dp.png"></img></div>
 
 By tapping this button you can take and send an encrypted photo.
 

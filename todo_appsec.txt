@@ -1,13 +1,8 @@
-build.sh
+
+* sceenshots!!!
 
 
-**check links (probably /decoy , generalconfig.... broken!
-
-** all-in-one-config tab for whatssec
-
+* build oversec (from appsec) abd deploy to github -> test with current Oversec
+* then build from "develop" again and redeploy (to match slightly different settings order)
 
 
-patch main config file
-
-
-lektor build

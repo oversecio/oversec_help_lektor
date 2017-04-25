@@ -1,5 +1,5 @@
 Este método único codifica el texto cifrado como caracteres invisibles (ancho cero) al principio del texto.
-A continuación, el texto se rellena con [contenido de señuelo] (/setup/decoy) para asegurarse de que el dispositivo de recepción proporciona suficiente espacio de pantalla para representar el decodificado.
+A continuación, el texto se rellena con [contenido de señuelo](/setup#main_decoy) para asegurarse de que el dispositivo de recepción proporciona suficiente espacio de pantalla para representar el decodificado.
 
 <a name="insufficientpadding"></a>
 Al introducir o editar el texto de señuelo, se dibuja un borde alrededor del campo de entrada.

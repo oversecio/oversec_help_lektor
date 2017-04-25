@@ -1,9 +1,9 @@
 #!/bin/bash
-set -x
+#set -x
 
 function show_help() {
 cat << EOF
-usage: build <product> <target-app-name> <repo> <cname>
+usage: build <product> <target-app-name> <repo> <cname> <buttoncolor> <gradienstartcolor> <gradientendcolor>
 EOF
 }
 
@@ -12,11 +12,17 @@ PRODUCT=$1
 TARGETAPP=$2
 REPO=$3
 CNAME=$4
+BUTTONCOLOR=$5
+GRADIENTSTARTCOLOR=$6
+GRADIENTENDCOLOR=$7
 
 if [ -z "$PRODUCT" ]; then show_help;exit;fi
 if [ -z "$TARGETAPP" ]; then show_help;exit;fi
 if [ -z "$REPO" ]; then show_help;exit;fi
 if [ -z "$CNAME" ]; then show_help;exit;fi
+if [ -z "$BUTTONCOLOR" ]; then show_help;exit;fi	
+if [ -z "$GRADIENTSTARTCOLOR" ]; then show_help;exit;fi	
+if [ -z "$GRADIENTENDCOLOR" ]; then show_help;exit;fi	
 
 echo ********* BUILDING $PRODUCT **********
 
@@ -50,7 +56,22 @@ find . -type f -name "*.lr" -exec sed -i -e 's/&targetapp;/'$TARGETAPP'/g' {} \;
 
 #patch config 
 cd ..
+pwd
+
+sed -i -e 's/&appname;/'$PRODUCT'/g' "templates/layout.html"
+
 sed -i -e 's/&appname;/'$PRODUCT'/g' "Oversec Help.lektorproject"
 sed -i -e 's/&targetapp;/'$TARGETAPP'/g' "Oversec Help.lektorproject"
 sed -i -e 's/&repo;/'$REPO'/g' "Oversec Help.lektorproject"
 sed -i -e 's/&cname;/'$CNAME'/g' "Oversec Help.lektorproject"
+
+sed -i -e 's/&button_color;/'$BUTTONCOLOR'/g' "assets/static/style.css"
+sed -i -e 's/&gradientstart_color;/'$GRADIENTSTARTCOLOR'/g' "assets/static/style.css"
+sed -i -e 's/&gradientend_color;/'$GRADIENTENDCOLOR'/g' "assets/static/style.css"
+
+# now build
+
+lektor build
+
+
+

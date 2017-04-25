@@ -1,6 +1,6 @@
 ### Codage Invisible (Leurre)
 Cette méthode unique encode le texte chiffré comme un caractère invisible (zéro largeur) au début du texte.
-Le texte est ensuite rembourré avec [contenu de leurre] (/setup/decoy) pour vous assurer que le périphérique de réception offre suffisamment d'espace d'écran pour rendre décrypté
+Le texte est ensuite rembourré avec [contenu de leurre](/setup#main_decoy) pour vous assurer que le périphérique de réception offre suffisamment d'espace d'écran pour rendre décrypté
 
 <a name="insufficientpadding"></a>
 Lorsque vous entrez ou modifiez le texte du leurre, une bordure est dessinée autour du champ de saisie.

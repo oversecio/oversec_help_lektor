@@ -1,6 +1,6 @@
 ### Invisible (Decoy) Encoding
 This unique method encodes the encrypted text as invisible (zero width) characters at the beginning of the text.
-The text is then padded with  [decoy content](/setup/decoy) to make sure that the receiving device provides enough screen-space to render the decrypted 
+The text is then padded with  [decoy content](/setup#main_decoy) to make sure that the receiving device provides enough screen-space to render the decrypted 
 
 <a name="insufficientpadding"></a>
 When entering or editing the decoy text, a border is drawn around the input field. 

@@ -3,7 +3,7 @@
 <div class="buttoncircle"><img src="/buttons/ic_create_black_24dp.png"></img></div>
 
 Mit diesem Button kann Text in einem extra Fenster erfasst werden, der dann verschlüsselt in der Zwischenablage abgelegt wird.
-Danach kann dann der verschlüsselte Text aus der Zwischenablage in Eingabefelder eingefügt werden, die ansonsten nicht von Oversec erkannt werden.
+Danach kann dann der verschlüsselte Text aus der Zwischenablage in Eingabefelder eingefügt werden, die ansonsten nicht von appname; erkannt werden.
 (z.B:: Der Body-Text einer E-Mail in der  "Inbox by Gmail" App)
 
 Berühre diesen Button um das Text-Eingabefenster zu öffnen.. 

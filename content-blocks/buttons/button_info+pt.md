@@ -2,7 +2,7 @@
 ### Botão Informações
 
 
-<div class="buttoncircle"><img src="ic_info_outline_black_24dp.png"></img></div>
+<div class="buttoncircle"><img src="/buttons/ic_info_outline_black_24dp.png"></img></div>
 
 Toque neste botão para entrar no modo info.
 
@@ -10,7 +10,7 @@ Enquanto no modo info, haverá uma versão menor deste botão ao lado de cada te
 Toque no botão info pequeno para mostrar informações detalhadas de criptografia sobre este texto.
 
 
-<div class="buttoncircle"><img  src="ic_not_interested_black_24dp.png"></img></div>
+<div class="buttoncircle"><img  src="/buttons/ic_not_interested_black_24dp.png"></img></div>
 
 Enquanto no modo de informação, este botão mostra como acima. Toque para sair do modo info.
 

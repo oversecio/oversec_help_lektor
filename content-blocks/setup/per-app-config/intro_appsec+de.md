@@ -1,1 +1,1 @@
-Tipp: Die Konfigurations-Seite kanna uauch durch Berühren des [&appname; Konfigurations Buttons](/buttons#button_config) geöffnet werden. 
+Tipp: Die Konfigurations-Seite kann auch durch Berühren des [&appname; Konfigurations Buttons](/buttons#button_config) geöffnet werden. 

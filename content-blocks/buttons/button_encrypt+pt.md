@@ -1,6 +1,6 @@
 <a name="button_encrypt"></a>
 ### Botão Criptografar
-<div class="buttoncircle"><img src="ic_lock_black_24dp.png"></img></div>
+<div class="buttoncircle"><img src="/buttons/ic_lock_black_24dp.png"></img></div>
 
 <a name="button_encrypt_initial"></a>
 Toque neste botão para encriptar o texto introduzido. Depois que o texto foi criptografado, este botão desaparece automaticamente. Portanto, se você colocar esse botão sobre o aplicativo subjacente "enviar" ou "salvar" botão, você pode ter certeza que você não acidentalmente enviar ou salvar texto sem formatação.

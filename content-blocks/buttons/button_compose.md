@@ -1,10 +1,10 @@
 <a name="button_compose"></a>
 ### Compose-Button
-<div class="buttoncircle"><img src="ic_create_black_24dp.png"></img></div>
+<div class="buttoncircle"><img src="/buttons/ic_create_black_24dp.png"></img></div>
 
 
 This button lets you enter text in a separate screen and then place the encrypted text into the clipboard.
-You can then paste the text from the clipboard into input fields that are otherwise not accessible by Oversec.
+You can then paste the text from the clipboard into input fields that are otherwise not accessible by appname;.
 (Example: Body of an email message in "Inbox by Gmail")
 Tap this button to open the input screen. 
 

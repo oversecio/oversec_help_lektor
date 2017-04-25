@@ -1,6 +1,6 @@
 <a name="button_camera"></a>
 ### Botão Câmera
-<div class="buttoncircle"><img src="ic_camera_alt_black_24dp.png"></img></div>
+<div class="buttoncircle"><img src="/buttons/ic_camera_alt_black_24dp.png"></img></div>
 
 Ao tocar neste botão, você pode tirar e enviar uma foto criptografada.
 

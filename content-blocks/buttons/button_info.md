@@ -2,7 +2,7 @@
 ### Info-Button
 
 
-<div class="buttoncircle"><img src="ic_info_outline_black_24dp.png"></img></div>
+<div class="buttoncircle"><img src="/buttons/ic_info_outline_black_24dp.png"></img></div>
 
 Tap this button to enter info mode. 
 
@@ -11,7 +11,7 @@ Tap on of the small info button to show detailed encryption information about th
 
 
 
-<div class="buttoncircle"><img  src="ic_not_interested_black_24dp.png"></img></div>
+<div class="buttoncircle"><img  src="/buttons/ic_not_interested_black_24dp.png"></img></div>
 
 While in info-mode, this button shows like above. Tap it to leave info mode.
 

@@ -1,6 +1,6 @@
 ### Codificação Invisível (Chamariz)
 Esse método exclusivo codifica o texto criptografado como caracteres invisíveis (largura zero) no início do texto.
-O texto é então preenchido com [conteúdo de chamariz] (/setup/decoy) para se certificar de que o dispositivo de recepção fornece espaço de tela suficiente para processar o decodificado
+O texto é então preenchido com [conteúdo de chamariz](/setup#main_decoy) para se certificar de que o dispositivo de recepção fornece espaço de tela suficiente para processar o decodificado
 
 <a name="insufficientpadding"></a>
 Ao inserir ou editar o texto chamariz, uma borda é desenhada em torno do campo de entrada.

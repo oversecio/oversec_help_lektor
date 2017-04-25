@@ -1,6 +1,6 @@
 ### Unsichtbare Tarn-Kodierung
 Diese einzigartige Kodierung versteckt den verschlüsselten Text in unsichtbaren Zeichen am Beginn der Nachricht.
-Die Nachricht wird dann mit [Tarntext](/setup/decoy) aufgefüllt, um sicherzustellen, dass auf dem  Bildschirm des Empfängerhandys ausreichend Platz für die Überlagerung der entschlüsselten Nachricht vorhanden ist.
+Die Nachricht wird dann mit [Tarntext](/setup#main_decoy) aufgefüllt, um sicherzustellen, dass auf dem  Bildschirm des Empfängerhandys ausreichend Platz für die Überlagerung der entschlüsselten Nachricht vorhanden ist.
 
 <a name="insufficientpadding"></a>
 Wenn sich im Eingabefeld ein verschlüsselter Text befindet, zeichnet &appname; einen farbigen Rahmen um das Eingabefeld.

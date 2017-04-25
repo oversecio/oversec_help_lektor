@@ -1,6 +1,6 @@
 <a name="button_encrypt"></a>
 ### Botón de cifrar 
-<div class="buttoncircle"><img src="ic_lock_black_24dp.png"></img></div>
+<div class="buttoncircle"><img src="/buttons/ic_lock_black_24dp.png"></img></div>
 
 <a name="button_encrypt_initial"></a>
 Toque este botón para cifrar el texto introducido. Después de que el texto haya sido cifrado, este botón desaparecerá automáticamente. Por lo tanto, si coloca este botón sobre el botón de "enviar" o "guardar" de la aplicación subyacente, puede asegurarse de que no envía o no guarda texto en forma accidental.

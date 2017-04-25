@@ -1,6 +1,6 @@
 <a name="button_encrypt"></a>
 ### Encrypt-Button
-<div class="buttoncircle"><img src="ic_lock_black_24dp.png"></img></div>
+<div class="buttoncircle"><img src="/buttons/ic_lock_black_24dp.png"></img></div>
 
 <a name="button_encrypt_initial"></a>
 Tap this button to encrypt the entered text. After the text has been encrypted, this button automatically disappears. So if you place this button over the underlying app's "send" or "save" button, you can make sure that you do not accidentally send or save plain text.
