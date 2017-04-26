@@ -19,22 +19,22 @@ Tapping on "Configure" will lead you directly to the relevant Settings page:
 
 Теперь нажмите «&appname;»
 <br></br>
-<img src="/setup/acs_settings_step_1_L.png"></img>
+<img src="/setup/acs_settings_step_1+ru.png"></img>
 <br></br>
 Теперь нажмите на переключатель в правом верхнем углу
 <br></br>
-<img src="/setup/acs_settings_step_2_L.png"></img>
+<img src="/setup/acs_settings_step_2+ru.png"></img>
 <br></br>
 Нажмите «Вкл».
 <br></br>
-<img src="/setup/acs_settings_step_3_L.png"></img>
+<img src="/setup/acs_settings_step_3+ru.png"></img>
 <br></br>
 Теперь переключатель должен быть включен. Нажмите «НАЗАД»,
 <br></br>
-<img src="/setup/acs_settings_step_4_L.png"></img>
+<img src="/setup/acs_settings_step_4+ru.png"></img>
 <br></br>
 Теперь &appname; должен быть включен. Нажмите «НАЗАД»,
 <br></br>
-<img src="/setup/acs_settings_step_5_L.png"></img>
+<img src="/setup/acs_settings_step_5+ru.png"></img>
 <br></br>
 

@@ -7,7 +7,7 @@ body:
 
 <a name="main_help"></a>
 <a name="main_help_acsconfig"></a>
-	
+!INCLUDE "setup/required.md"	
 
 <a name="main_help_accessibilitysettingsnotresolvable"></a>
 !INCLUDE "setup/acsnotresolvable.md"

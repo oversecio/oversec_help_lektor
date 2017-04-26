@@ -10,22 +10,22 @@ Tapping on "Configure" will lead you directly to the relevant Settings page:
 
 Now tap on "&appname;"
 <br></br>
-<img src="/setup/acs_settings_step_1_L.png"></img>
+<img src="/setup/acs_settings_step_1+en.png"></img>
 <br></br>
 Now tap on the switch in the upper right corner
 <br></br>
-<img src="/setup/acs_settings_step_2_L.png"></img>
+<img src="/setup/acs_settings_step_2+en.png"></img>
 <br></br>
 Tap on "OK"
 <br></br>
-<img src="/setup/acs_settings_step_3_L.png"></img>
+<img src="/setup/acs_settings_step_3+en.png"></img>
 <br></br>
 Now the switch should be ON. Tap on "BACK"
 <br></br>
-<img src="/setup/acs_settings_step_4_L.png"></img>
+<img src="/setup/acs_settings_step_4+en.png"></img>
 <br></br>
 Now &appname; should be "on". Tap on "BACK"
 <br></br>
-<img src="/setup/acs_settings_step_5_L.png"></img>
+<img src="/setup/acs_settings_step_5+en.png"></img>
 <br></br>
 
