@@ -5,7 +5,7 @@ _model: page
 ---
 body:
 
-<div class="buttoncircle"><img src="ic_settings_black_24dp.png"/></div>
+<div class="buttoncircle"><img src="/setup/per-app-config/ic_settings_black_24dp.png"/></div>
 !INCLUDE "setup/per-app-config/intro.md"
 
 
