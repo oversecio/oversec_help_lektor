@@ -16,7 +16,7 @@ Enquanto no modo de informação, este botão mostra como acima. Toque para sair
 
 *Nota: Este botão pode ser arrastado e colocado em qualquer lugar na tela.*
 
-*Nota: Este botão não está habilitado por padrão. Clique no botão de configuração para abrir a [página de configuração por-app] (/setup/per-app-config/) onde você pode ativar o botão info.*
+*Nota: Este botão não está habilitado por padrão. Clique no botão de configuração para abrir a [página de configuração por-app](/setup/per-app-config/) onde você pode ativar o botão info.*
 
 *Note: Long-tapping the Info-Button brings up the [per-app configuration page](/setup/per-app-config/) (see below). You can thus enable the info button and disable the config button in the [per-app configuration page](/setup/per-app-config/) and still have access to the app config by long-tapping the info button.
 

@@ -3,7 +3,7 @@
 Extended and incubating options
 
 ####Info Button
-En-/Disables the [Info Button] (/buttons#button_info) to display additional encryption information.
+En-/Disables the [Info Button](/buttons#button_info) to display additional encryption information.
 
 ####Tap to show info
 When enabled, tapping on an encrypted text will show detailed encryption info.
@@ -16,12 +16,12 @@ When enabled, long-tapping on an encrypted text will show detailed encryption in
 **Warning: This might interfere with the UX of the underlying app, as it will not longer receive some long-tap events!**
 
 ####Encrypt Button
-Show the [Encrypt Button] (/buttons#button_encrypt) next to the active input field.
+Show the [Encrypt Button](/buttons#button_encrypt) next to the active input field.
 
  (Decrypt button also won't show if encrypt button is not shown)
  
  ####Toggle encrypt button on long-tap
-Shows or hides the  [Encrypt Button] (/buttons#button_encrypt)  when long-tapping on an input field.
+Shows or hides the  [Encrypt Button](/buttons#button_encrypt)  when long-tapping on an input field.
 
 **Warning: This might interfere with the UX of the underlying app!**
 

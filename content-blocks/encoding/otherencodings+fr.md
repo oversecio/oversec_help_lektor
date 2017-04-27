@@ -1,7 +1,7 @@
 ### Codage BASE64
 Cela code le texte chiffré comme une série de caractères imprimables, garantissant le fonctionnement de toutes les applications et systèmes.
 
-Ceci est principalement destiné à être utilisé avec [cryptage symétrique] (/encryption-parameters/#sym) pour les messages texte SMS.
+Ceci est principalement destiné à être utilisé avec [cryptage symétrique](/encryption-parameters/#sym) pour les messages texte SMS.
 
 ###Ascii-Armoured PGP
 Ceci est uniquement disponible pour les messages [Codage PGP](/encryption-parameters/#pgp) et les encode comme une chaîne "blindé ascii".

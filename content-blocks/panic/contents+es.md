@@ -15,7 +15,7 @@ de modo que no se indique nada de "secreto" en el dispositivo (Por supuesto, un 
 
 El modo de pánico se puede activar
 
-* Toque largo el botón [Ocultar] (/buttons#button_hide)
+* Toque largo el botón [Ocultar](/buttons#button_hide)
 * Tocar "STOP" en la notificación &appname;
 
 Para volver a habilitar &appname; después de ingresar el modo de pánico, vaya a la aplicación &appname; principal y toque en "Reactivar"

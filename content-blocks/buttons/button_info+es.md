@@ -17,6 +17,6 @@ Mientras está en modo de información, este botón muestra lo anterior. Toque p
 
 *Nota: Este botón se puede arrastrar y colocar en cualquier lugar de la pantalla.*
 
-* Nota: Este botón no está habilitado de forma predeterminada. Pulse el botón de configuración para abrir la página de configuración [por configuración de aplicación] (/setup/per-app-config/) donde puede activar el botón info.*
+* Nota: Este botón no está habilitado de forma predeterminada. Pulse el botón de configuración para abrir la página de configuración [por configuración de aplicación](/setup/per-app-config/) donde puede activar el botón info.*
 
-* Nota: al pulsar prolongadamente el botón de información se abre la página de configuración [por configuración de la aplicación] (/setup /per-app-config/) (véase más adelante). Por lo tanto, puede habilitar el botón de información y deshabilitar el botón de configuración en la página de configuración [por configuración de aplicación] (/setup/per-app-config/) y seguir teniendo acceso a la configuración de la aplicación pulsando prolongadamente el botón de información.*
+* Nota: al pulsar prolongadamente el botón de información se abre la página de configuración [por configuración de la aplicación](/setup /per-app-config/) (véase más adelante). Por lo tanto, puede habilitar el botón de información y deshabilitar el botón de configuración en la página de configuración [por configuración de aplicación](/setup/per-app-config/) y seguir teniendo acceso a la configuración de la aplicación pulsando prolongadamente el botón de información.*

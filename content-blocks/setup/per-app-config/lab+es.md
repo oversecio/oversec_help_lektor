@@ -2,7 +2,7 @@
 Opciones ampliadas y de incubación
 
 #### Botón de información
-En- / Desactiva el [Botón Info] (/buttons#button_info) para mostrar información adicional de cifrado.
+En- / Desactiva el [Botón Info](/buttons#button_info) para mostrar información adicional de cifrado.
 
 ####Mantenga presionado para mostrar información
 Cuando está activado, tocando en un texto cifrado mostrará información detallada de cifrado.
@@ -20,7 +20,7 @@ Muestre el [Botón de cifrar](/buttons#button_encrypt) junto al campo de entrada
  (El botón descifrar tampoco se mostrará si no se muestra el botón cifrar)
 
 ####Activar/Desactivar el botón de encriptación presionando
-Muestra u oculta el botón [Botón de cifrar] (/buttons#button_encrypt) al pulsar prolongadamente en un campo de entrada.
+Muestra u oculta el botón [Botón de cifrar](/buttons#button_encrypt) al pulsar prolongadamente en un campo de entrada.
 
 Advertencia: ¡podría interferir con la UX de la aplicación subyacente!
 

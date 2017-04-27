@@ -14,7 +14,7 @@ de modo que nenhuma indicação de nada "secreto" será deixado no dispositivo (
 
 O modo Panic pode ser ativado
 
-* Toque prolongado no [Botão Ocultar] (/buttons#button_hide)
+* Toque prolongado no [Botão Ocultar](/buttons#button_hide)
 * Tocando "INTERROMPER" na notificação &appname;
 
 Para reativar &appname; depois que o modo de pânico foi inserido, vá para o aplicativo &appname; principal e toque em "Reativar"

@@ -8,7 +8,7 @@ Toque de nuevo en la misma posición (mientras que este y todos los demás boton
 
 Este botón también funciona como un botón de pánico: Toque largo para entrar en [Modo de pánico](/panic) 
 
-Toque doble en este botón, aparecerá la página de configuración [por configuración de la aplicación] (/setup/per-app-config/) donde podrá configurar varios aspectos de cómo funciona appname; junto con la aplicación actual.
+Toque doble en este botón, aparecerá la página de configuración [por configuración de la aplicación](/setup/per-app-config/) donde podrá configurar varios aspectos de cómo funciona appname; junto con la aplicación actual.
 
 
 

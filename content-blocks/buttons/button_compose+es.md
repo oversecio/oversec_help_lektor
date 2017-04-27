@@ -16,4 +16,4 @@ Ahora toque largo en un campo de entrada y luego seleccione "PEGAR" para pegar e
 
 *Nota: Este botón se puede arrastrar y colocar en cualquier lugar de la pantalla.*
 
-*Nota: Este botón no está habilitado de forma predeterminada. Pulse el botón de configuración para abrir la página de configuración [por configuración de aplicación] (/ setup / per-app-config /) donde puede activar el botón componer.*
+*Nota: Este botón no está habilitado de forma predeterminada. Pulse el botón de configuración para abrir la página de configuración [por configuración de aplicación](/ setup / per-app-config /) donde puede activar el botón componer.*

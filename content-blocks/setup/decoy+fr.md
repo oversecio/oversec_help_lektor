@@ -6,5 +6,5 @@ Sous l'onglet "Leurre" des paramètres de l'application principale, vous pouvez 
 
 Allusion:
 Voici de superbes sites Web où vous pouvez générer du contenu d'appel
-* [Song Lyrics] (http://lyrics.wikia.com/wiki/LyricWiki:Top_100)
-* [Pan Ipsum] (http://panipsum.com/)
+* [Song Lyrics](http://lyrics.wikia.com/wiki/LyricWiki:Top_100)
+* [Pan Ipsum](http://panipsum.com/)

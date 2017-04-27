@@ -1,6 +1,6 @@
 <a name="pgp"><br/></a>
 ##PGP
-Cifrar con las claves PGP públicas / privadas. Necesita la aplicación [OpenKeyChain] (https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain) para utilizar este método y administrar sus claves PGP.
+Cifrar con las claves PGP públicas / privadas. Necesita la aplicación [OpenKeyChain](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain) para utilizar este método y administrar sus claves PGP.
 <br/>
 #### Importante: el cifrado PGP agrega aproximadamente 2 kilobytes o más de datos a su mensaje cifrado. Tenga en cuenta esto y dependiendo de su plan de datos es posible que desee utilizar cifrado simétrico en su lugar (lo que requiere mucho menos datos).
 
