@@ -5,9 +5,12 @@ body:
 
 !INCLUDE "encryption-parameters/simple.md"
 
+
 !INCLUDE "encryption-parameters/sym.md"
 
+
 !INCLUDE "encryption-parameters/pgp.md"
+
 
 ---
 sortstring:

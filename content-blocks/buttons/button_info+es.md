@@ -1,5 +1,5 @@
 <a name="button_info"></a>
-### >Botón de información
+### Botón de información
 
 
 <div class="buttoncircle"><img src="/buttons/ic_info_outline_black_24dp.png"></img></div>

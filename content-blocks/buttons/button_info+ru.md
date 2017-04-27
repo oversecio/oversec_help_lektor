@@ -19,6 +19,5 @@
 
 *Примечание: эта кнопка не включена по умолчанию. Нажмите кнопку конфигурации, чтобы открыть [страницу конфигурации приложения](/setup/per-app-config/), где вы можете включить кнопку информации.*
 
-*Note: Long-tapping the Info-Button brings up the [per-app configuration page](/setup/per-app-config/) (see below). You can thus enable the info button and disable the config button in the [per-app configuration page](/setup/per-app-config/) and still have access to the app config by long-tapping the info button.
 
 * Примечание. Длительное нажатие на кнопку Info приводит к [странице конфигурации приложения (/setup/per-app-config/) (см. Ниже). Таким образом, вы можете включить кнопку информации и отключить кнопку конфигурации на [странице конфигурации приложения (/setup/per-app-config/) и до сих пор иметь доступ к настройке приложения, нажав кнопку информации.

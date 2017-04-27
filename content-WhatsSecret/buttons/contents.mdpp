@@ -5,13 +5,18 @@ _model: page
 ---
 body:
 
+
 !INCLUDE "buttons/button_hide.md"
+
 
 !INCLUDE "buttons/button_encrypt.md"
 
+
 !INCLUDE "buttons/button_decrypt.md"
 
+
 !INCLUDE "buttons/button_info.md"
+
 
 !INCLUDE "buttons/button_config.md"
 

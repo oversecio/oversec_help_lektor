@@ -10,22 +10,22 @@ Si pulsa en "Configurar", podrá acceder directamente a la página de configurac
 
 Ahora toque en "&appname;"
 <br></br>
-<img src="/setup/acs_settings_step_1_L.png"></img>
+<img src="/setup/acs_settings_step_1+es.png"></img>
 <br></br>
 Ahora toca la palanca en la esquina superior derecha
 <br></br>
-<img src="/setup/acs_settings_step_2_L.png"></img>
+<img src="/setup/acs_settings_step_2+es.png"></img>
 <br></br>
 Toque en "Aceptar"
 <br></br>
-<img src="/setup/acs_settings_step_3_L.png"></img>
+<img src="/setup/acs_settings_step_3+es.png"></img>
 <br></br>
 Ahora el palanca debe estar ACTIVADO.
 <br></br>
-<img src="/setup/acs_settings_step_4_L.png"></img>
+<img src="/setup/acs_settings_step_4+es.png"></img>
 <br></br>
 Ahora &appname; debe estar activado. Toque en "ATRÁS"
 <br></br>
-<img src="/setup/acs_settings_step_5_L.png"></img>
+<img src="/setup/acs_settings_step_5+es.png"></img>
 <br></br>
 
